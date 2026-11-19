@@ -15,21 +15,22 @@ def getCmdOutput = { cmd ->
 def getGitHash = { -> return getCmdOutput(["git", "rev-parse", "--short", "HEAD"]) }
 def getGitBranch = { -> return getCmdOutput(["git", "rev-parse", "--abbrev-ref", "HEAD"]) }
 
-def packageName = "com.beemdevelopment.aegis"
-def fileProviderAuthority = "${packageName}.fileprovider"
-def fileProviderAuthorityDebug = "${packageName}.debug.fileprovider"
+def namespaceName = "com.beemdevelopment.aegis"
+def applicationIdName = "org.idroot.authenticator"
+def fileProviderAuthority = "${applicationIdName}.fileprovider"
+def fileProviderAuthorityDebug = "${applicationIdName}.debug.fileprovider"
 
 android {
     compileSdk 36
 
-    namespace packageName
+    namespace namespaceName
 
     defaultConfig {
-        applicationId "${packageName}"
+        applicationId "${applicationIdName}"
         minSdkVersion 23
         targetSdkVersion 36
         versionCode 82
-        versionName "3.4.3"
+        versionName "3.4.3-idroot.1"
         multiDexEnabled true
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
         buildConfigField "String", "GIT_BRANCH", "\"${getGitBranch()}\""
@@ -71,7 +72,7 @@ android {
         debug {
             applicationIdSuffix ".debug"
             manifestPlaceholders = [
-                title: "AegisDev",
+                title: "IDroot Dev",
                 iconName: "ic_launcher_debug",
                 fileProviderAuthority: "${fileProviderAuthorityDebug}"
             ]
@@ -80,7 +81,7 @@ android {
         }
         release {
             manifestPlaceholders = [
-                title: "Aegis",
+                title: "IDroot",
                 iconName: "ic_launcher",
                 fileProviderAuthority: "${fileProviderAuthority}"
             ]

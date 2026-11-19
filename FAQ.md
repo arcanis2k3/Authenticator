@@ -1,3 +1,11 @@
+# IDroot Authenticator
+
+This app is [IDroot Authenticator](https://idroot.org), a GPL-3 fork of Aegis.
+The answers below still say Aegis in places. They describe the same app.
+The vault format is unchanged, so an Aegis backup still imports.
+
+Website: https://idroot.org
+
 # FAQ
 
 ## General

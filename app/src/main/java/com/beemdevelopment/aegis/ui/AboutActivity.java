@@ -26,13 +26,13 @@ import com.google.android.material.color.MaterialColors;
 
 public class AboutActivity extends AegisActivity {
 
-    private static String GITHUB = "https://github.com/beemdevelopment/Aegis";
+    private static String GITHUB = "https://github.com/arcanis2k3/Authenticator";
     private static String WEBSITE_ALEXANDER = "https://alexbakker.me";
     private static String GITHUB_MICHAEL = "https://github.com/michaelschattgen";
 
     private static String MAIL_BEEMDEVELOPMENT = "beemdevelopment@gmail.com";
-    private static String WEBSITE_BEEMDEVELOPMENT = "https://beem.dev/";
-    private static String PLAYSTORE_BEEMDEVELOPMENT = "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis";
+    private static String WEBSITE_BEEMDEVELOPMENT = "https://idroot.org";
+    private static String PLAYSTORE_BEEMDEVELOPMENT = "https://idroot.org";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
