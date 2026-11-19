@@ -68,6 +68,20 @@ android {
         }
     }
 
+    def keystoreFile = System.getenv("KEYSTORE_FILE")
+
+    signingConfigs {
+        release {
+            if (keystoreFile) {
+                storeFile file(keystoreFile)
+                storePassword System.getenv("KEYSTORE_PASSWORD")
+                keyAlias System.getenv("KEY_ALIAS")
+                keyPassword System.getenv("KEY_PASSWORD")
+                storeType "PKCS12"
+            }
+        }
+    }
+
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
@@ -80,6 +94,9 @@ android {
             resValue "bool", "pref_secure_screen_default", "false"
         }
         release {
+            if (keystoreFile) {
+                signingConfig signingConfigs.release
+            }
             manifestPlaceholders = [
                 title: "IDroot",
                 iconName: "ic_launcher",

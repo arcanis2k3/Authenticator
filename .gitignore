@@ -39,5 +39,7 @@ captures/
 
 # Keystore files
 *.jks
+*.p12
+*.keystore
 crowdin.properties
 .crowdin/config.yml

@@ -78,8 +78,22 @@ will be attached to a GitHub Release of this repository and linked from
 
 Do not install the official Aegis APK expecting this branding. IDroot
 Authenticator uses its own application id (`org.idroot.authenticator`) and its
-own signing key. The certificate fingerprints will be listed here once the
-first release is signed.
+own signing key. This is not the Aegis key.
+
+### Verification
+
+Release APKs are signed with the IDroot release key, alias `idroot`.
+
+```
+apksigner verify --print-certs --verbose idroot-authenticator.apk
+```
+
+```
+Owner: CN=IDroot Authenticator, O=IDroot, C=EC
+Valid until: Mon Apr 06 18:42:15 UTC 2054
+SHA1: C3:6F:3E:04:F3:EB:22:5F:0B:5E:F9:BE:A1:7C:9B:A5:30:3C:B9:87
+SHA256: 5E:4A:D4:D4:84:AF:36:C8:66:B5:9C:FF:4A:54:09:8E:CC:7E:30:05:64:E4:E7:3F:B9:B8:14:9C:1A:20:63:2C
+```
 
 
 ### Icon packs
