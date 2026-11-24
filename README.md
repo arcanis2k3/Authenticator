@@ -95,6 +95,14 @@ SHA1: C3:6F:3E:04:F3:EB:22:5F:0B:5E:F9:BE:A1:7C:9B:A5:30:3C:B9:87
 SHA256: 5E:4A:D4:D4:84:AF:36:C8:66:B5:9C:FF:4A:54:09:8E:CC:7E:30:05:64:E4:E7:3F:B9:B8:14:9C:1A:20:63:2C
 ```
 
+## Legal
+
+The app is separate from the idroot.org handle service. Its own texts, with the German version authoritative:
+
+- [Privacy policy](docs/legal/privacy.en.md) · [Datenschutzerklärung](docs/legal/privacy.de.md)
+- [Terms of use](docs/legal/terms.en.md) · [Nutzungsbedingungen](docs/legal/terms.de.md)
+
+The website policies do not describe this app. The app does not create an account and has no internet permission.
 
 ### Icon packs
 
