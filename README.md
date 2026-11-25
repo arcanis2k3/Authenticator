@@ -52,23 +52,12 @@ The security design of the app and the vault format is described in detail in
 
 ## Screenshots
 
-[<img width=200 alt="Screenshot 1"
+[<img width=200 alt="Empty vault"
 src="metadata/en-US/images/phoneScreenshots/screenshot1.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot1.png?raw=true)
-[<img width=200 alt="Screenshot 2"
+[<img width=200 alt="Appearance"
 src="metadata/en-US/images/phoneScreenshots/screenshot2.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot2.png?raw=true)
-[<img width=200 alt="Screenshot 3"
+[<img width=200 alt="About"
 src="metadata/en-US/images/phoneScreenshots/screenshot3.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot3.png?raw=true)
-[<img width=200 alt="Screenshot 4"
-src="metadata/en-US/images/phoneScreenshots/screenshot4.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot4.png?raw=true)
-
-[<img width=200 alt="Screenshot 5"
-src="metadata/en-US/images/phoneScreenshots/screenshot5.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot5.png?raw=true)
-[<img width=200 alt="Screenshot 6"
-src="metadata/en-US/images/phoneScreenshots/screenshot6.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot6.png?raw=true)
-[<img width=200 alt="Screenshot 7"
-src="metadata/en-US/images/phoneScreenshots/screenshot7.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot7.png?raw=true)
-[<img width=200 alt="Screenshot 8"
-src="metadata/en-US/images/phoneScreenshots/screenshot8.png?raw=true">](metadata/en-US/images/phoneScreenshots/screenshot8.png?raw=true)
 
 ## Downloads
 
