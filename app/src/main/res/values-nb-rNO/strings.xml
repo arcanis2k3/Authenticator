@@ -508,4 +508,27 @@
         <item quantity="one">%d element valgt</item>
         <item quantity="other">%d elementer valgt</item>
     </plurals>
+    <string name="action_notes">Notater</string>
+    <string name="title_activity_notes">Notater</string>
+    <string name="notes_empty_title">Ingen notater ennå</string>
+    <string name="notes_empty">Wi-Fi-passord og korte notater blir i dette hvelvet.</string>
+    <string name="add_note">Legg til notat</string>
+    <string name="edit_note">Rediger notat</string>
+    <string name="note_title_hint">Tittel</string>
+    <string name="note_body_hint">Notat</string>
+    <string name="note_untitled">Uten tittel</string>
+    <string name="delete_note">Slett notat</string>
+    <string name="delete_note_confirm">Slette dette notatet? Det kan ikke angres.</string>
+    <string name="note_copied">Notat kopiert</string>
+    <string name="export_notes">Eksporter notater</string>
+    <string name="import_notes">Importer notater</string>
+    <string name="notes_exported">Notater eksportert. Filen inneholder ingen koder.</string>
+    <string name="notes_export_plain">Notater eksportert uten kryptering, fordi dette hvelvet ikke har passord.</string>
+    <string name="notes_export_error">Kunne ikke eksportere notater</string>
+    <string name="notes_imported">%1$d notater lagt til, %2$d oppdatert. Koder ble ikke endret.</string>
+    <string name="notes_import_error">Kunne ikke importere notater</string>
+    <string name="notes_import_wrong_file">Denne filen er ikke en notateksport</string>
+    <string name="notes_unlock">Lås opp notater</string>
+    <string name="notes_import_password">Passord for notatfilen</string>
+    <string name="notes_import_bad_password">Feil passord</string>
 </resources>

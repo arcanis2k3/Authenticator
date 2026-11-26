@@ -583,4 +583,27 @@ Biltegian egindako azken aldaketen segurtasun kopiarik ez dago. Garrantzitsua da
         <item quantity="one">Elementu %d aukeratuta</item>
         <item quantity="other">%d elementu aukeratuta</item>
     </plurals>
+    <string name="action_notes">Oharrak</string>
+    <string name="title_activity_notes">Oharrak</string>
+    <string name="notes_empty_title">Oraindik oharrik ez</string>
+    <string name="notes_empty">Wi-Fi pasahitzak eta ohar laburrak kutxa honetan geratzen dira.</string>
+    <string name="add_note">Gehitu oharra</string>
+    <string name="edit_note">Editatu oharra</string>
+    <string name="note_title_hint">Izenburua</string>
+    <string name="note_body_hint">Oharra</string>
+    <string name="note_untitled">Izengabea</string>
+    <string name="delete_note">Ezabatu oharra</string>
+    <string name="delete_note_confirm">Ohar hau ezabatu? Ezin da desegin.</string>
+    <string name="note_copied">Oharra kopiatu da</string>
+    <string name="export_notes">Esportatu oharrak</string>
+    <string name="import_notes">Inportatu oharrak</string>
+    <string name="notes_exported">Oharrak esportatu dira. Fitxategiak ez du koderik.</string>
+    <string name="notes_export_plain">Oharrak zifratu gabe esportatu dira, kutxa honek pasahitzik ez duelako.</string>
+    <string name="notes_export_error">Ezin izan dira oharrak esportatu</string>
+    <string name="notes_imported">%1$d ohar gehitu dira, %2$d eguneratu. Kodeak ez dira aldatu.</string>
+    <string name="notes_import_error">Ezin izan dira oharrak inportatu</string>
+    <string name="notes_import_wrong_file">Fitxategi hau ez da oharren esportazio bat</string>
+    <string name="notes_unlock">Desblokeatu oharrak</string>
+    <string name="notes_import_password">Ohar fitxategiaren pasahitza</string>
+    <string name="notes_import_bad_password">Pasahitz okerra</string>
 </resources>

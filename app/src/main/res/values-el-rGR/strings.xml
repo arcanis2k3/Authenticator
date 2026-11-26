@@ -589,4 +589,27 @@
         <item quantity="one">%d επιλεγμένο στοιχείο</item>
         <item quantity="other">%d επιλεγμένα στοιχεία</item>
     </plurals>
+    <string name="action_notes">Σημειώσεις</string>
+    <string name="title_activity_notes">Σημειώσεις</string>
+    <string name="notes_empty_title">Δεν υπάρχουν σημειώσεις ακόμη</string>
+    <string name="notes_empty">Οι κωδικοί Wi-Fi και οι σύντομες σημειώσεις μένουν σε αυτή τη θυρίδα.</string>
+    <string name="add_note">Προσθήκη σημείωσης</string>
+    <string name="edit_note">Επεξεργασία σημείωσης</string>
+    <string name="note_title_hint">Τίτλος</string>
+    <string name="note_body_hint">Σημείωση</string>
+    <string name="note_untitled">Χωρίς τίτλο</string>
+    <string name="delete_note">Διαγραφή σημείωσης</string>
+    <string name="delete_note_confirm">Διαγραφή αυτής της σημείωσης; Δεν αναιρείται.</string>
+    <string name="note_copied">Η σημείωση αντιγράφηκε</string>
+    <string name="export_notes">Εξαγωγή σημειώσεων</string>
+    <string name="import_notes">Εισαγωγή σημειώσεων</string>
+    <string name="notes_exported">Οι σημειώσεις εξήχθησαν. Το αρχείο δεν περιέχει κωδικούς.</string>
+    <string name="notes_export_plain">Οι σημειώσεις εξήχθησαν χωρίς κρυπτογράφηση, γιατί αυτή η θυρίδα δεν έχει κωδικό.</string>
+    <string name="notes_export_error">Αποτυχία εξαγωγής σημειώσεων</string>
+    <string name="notes_imported">Προστέθηκαν %1$d, ενημερώθηκαν %2$d. Οι κωδικοί δεν άλλαξαν.</string>
+    <string name="notes_import_error">Αποτυχία εισαγωγής σημειώσεων</string>
+    <string name="notes_import_wrong_file">Αυτό το αρχείο δεν είναι εξαγωγή σημειώσεων</string>
+    <string name="notes_unlock">Ξεκλείδωμα σημειώσεων</string>
+    <string name="notes_import_password">Κωδικός του αρχείου σημειώσεων</string>
+    <string name="notes_import_bad_password">Λάθος κωδικός</string>
 </resources>

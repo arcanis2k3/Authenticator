@@ -312,4 +312,27 @@
     <string name="pref_copy_next_near_expiry_title">کپی کد بعدی</string>
     <string name="pref_copy_next_near_expiry_summary">اگر کد در کمتر از ۴ ثانیه منقضی شود، کد بعدی کپی می‌شود</string>
     <string name="code_copied_next">کد بعدی کپی شد. کد فعلی در کمتر از ۴ ثانیه منقضی می‌شود.</string>
+    <string name="action_notes">یادداشت‌ها</string>
+    <string name="title_activity_notes">یادداشت‌ها</string>
+    <string name="notes_empty_title">هنوز یادداشتی نیست</string>
+    <string name="notes_empty">گذرواژه‌های وای‌فای و یادداشت‌های کوتاه در این گاوصندوق می‌مانند.</string>
+    <string name="add_note">افزودن یادداشت</string>
+    <string name="edit_note">ویرایش یادداشت</string>
+    <string name="note_title_hint">عنوان</string>
+    <string name="note_body_hint">یادداشت</string>
+    <string name="note_untitled">بدون عنوان</string>
+    <string name="delete_note">حذف یادداشت</string>
+    <string name="delete_note_confirm">این یادداشت حذف شود؟ این کار قابل بازگشت نیست.</string>
+    <string name="note_copied">یادداشت کپی شد</string>
+    <string name="export_notes">برون‌برد یادداشت‌ها</string>
+    <string name="import_notes">درون‌برد یادداشت‌ها</string>
+    <string name="notes_exported">یادداشت‌ها برون‌برد شدند. پرونده کد ندارد.</string>
+    <string name="notes_export_plain">یادداشت‌ها بدون رمزگذاری برون‌برد شدند، چون این گاوصندوق گذرواژه ندارد.</string>
+    <string name="notes_export_error">یادداشت‌ها برون‌برد نشدند</string>
+    <string name="notes_imported">%1$d یادداشت افزوده و %2$d به‌روز شد. کدها تغییر نکردند.</string>
+    <string name="notes_import_error">یادداشت‌ها درون‌برد نشدند</string>
+    <string name="notes_import_wrong_file">این پرونده برون‌برد یادداشت نیست</string>
+    <string name="notes_unlock">باز کردن یادداشت‌ها</string>
+    <string name="notes_import_password">گذرواژه پرونده یادداشت</string>
+    <string name="notes_import_bad_password">گذرواژه نادرست</string>
 </resources>

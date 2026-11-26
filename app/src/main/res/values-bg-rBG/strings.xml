@@ -590,4 +590,27 @@
         <item quantity="one">%d избран елемент</item>
         <item quantity="other">%d избрани елемента</item>
     </plurals>
+    <string name="action_notes">Бележки</string>
+    <string name="title_activity_notes">Бележки</string>
+    <string name="notes_empty_title">Все още няма бележки</string>
+    <string name="notes_empty">Wi-Fi паролите и кратките бележки остават в този трезор.</string>
+    <string name="add_note">Добавяне на бележка</string>
+    <string name="edit_note">Редакция на бележка</string>
+    <string name="note_title_hint">Заглавие</string>
+    <string name="note_body_hint">Бележка</string>
+    <string name="note_untitled">Без заглавие</string>
+    <string name="delete_note">Изтриване на бележка</string>
+    <string name="delete_note_confirm">Изтриване на тази бележка? Това не може да се отмени.</string>
+    <string name="note_copied">Бележката е копирана</string>
+    <string name="export_notes">Експорт на бележки</string>
+    <string name="import_notes">Импорт на бележки</string>
+    <string name="notes_exported">Бележките са експортирани. Файлът няма кодове.</string>
+    <string name="notes_export_plain">Бележките са експортирани без шифроване, защото този трезор няма парола.</string>
+    <string name="notes_export_error">Бележките не можаха да се експортират</string>
+    <string name="notes_imported">Добавени %1$d, обновени %2$d. Кодовете не са променени.</string>
+    <string name="notes_import_error">Бележките не можаха да се импортират</string>
+    <string name="notes_import_wrong_file">Този файл не е експорт на бележки</string>
+    <string name="notes_unlock">Отключване на бележки</string>
+    <string name="notes_import_password">Парола на файла с бележки</string>
+    <string name="notes_import_bad_password">Грешна парола</string>
 </resources>

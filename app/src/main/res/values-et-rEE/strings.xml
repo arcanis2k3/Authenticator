@@ -585,4 +585,27 @@ Andmehoidla viimased muudatused on veel varundamata. Vältimaks, et kaotad ligip
         <item quantity="one">%d kirje on valitud</item>
         <item quantity="other">%d kirjet on valitud</item>
     </plurals>
+    <string name="action_notes">Märkmed</string>
+    <string name="title_activity_notes">Märkmed</string>
+    <string name="notes_empty_title">Märkmeid veel pole</string>
+    <string name="notes_empty">Wi-Fi paroolid ja lühikesed märkmed jäävad sellesse varamusse.</string>
+    <string name="add_note">Lisa märge</string>
+    <string name="edit_note">Muuda märget</string>
+    <string name="note_title_hint">Pealkiri</string>
+    <string name="note_body_hint">Märge</string>
+    <string name="note_untitled">Pealkirjata</string>
+    <string name="delete_note">Kustuta märge</string>
+    <string name="delete_note_confirm">Kas kustutada see märge? Seda ei saa tagasi võtta.</string>
+    <string name="note_copied">Märge kopeeritud</string>
+    <string name="export_notes">Ekspordi märkmed</string>
+    <string name="import_notes">Impordi märkmed</string>
+    <string name="notes_exported">Märkmed eksporditud. Failis pole koode.</string>
+    <string name="notes_export_plain">Märkmed eksporditi krüptimata, sest sellel varamul pole parooli.</string>
+    <string name="notes_export_error">Märkmeid ei saanud eksportida</string>
+    <string name="notes_imported">Lisatud %1$d, uuendatud %2$d. Koode ei muudetud.</string>
+    <string name="notes_import_error">Märkmeid ei saanud importida</string>
+    <string name="notes_import_wrong_file">See fail ei ole märkmete eksport</string>
+    <string name="notes_unlock">Ava märkmed</string>
+    <string name="notes_import_password">Märkmefaili parool</string>
+    <string name="notes_import_bad_password">Vale parool</string>
 </resources>

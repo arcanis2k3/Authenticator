@@ -447,4 +447,27 @@
         <item quantity="one">%d आइटम चयनित</item>
         <item quantity="other">%d आइटम्स चयनित</item>
     </plurals>
+    <string name="action_notes">नोट</string>
+    <string name="title_activity_notes">नोट</string>
+    <string name="notes_empty_title">अभी कोई नोट नहीं</string>
+    <string name="notes_empty">Wi-Fi पासवर्ड और छोटे नोट इसी तिजोरी में रहते हैं।</string>
+    <string name="add_note">नोट जोड़ें</string>
+    <string name="edit_note">नोट संपादित करें</string>
+    <string name="note_title_hint">शीर्षक</string>
+    <string name="note_body_hint">नोट</string>
+    <string name="note_untitled">बिना शीर्षक</string>
+    <string name="delete_note">नोट हटाएँ</string>
+    <string name="delete_note_confirm">यह नोट हटाएँ? इसे वापस नहीं लिया जा सकता।</string>
+    <string name="note_copied">नोट कॉपी हुआ</string>
+    <string name="export_notes">नोट निर्यात करें</string>
+    <string name="import_notes">नोट आयात करें</string>
+    <string name="notes_exported">नोट निर्यात हुए। फ़ाइल में कोई कोड नहीं है।</string>
+    <string name="notes_export_plain">नोट बिना एन्क्रिप्शन के निर्यात हुए, क्योंकि इस तिजोरी का पासवर्ड नहीं है।</string>
+    <string name="notes_export_error">नोट निर्यात नहीं हो सके</string>
+    <string name="notes_imported">%1$d नोट जोड़े गए, %2$d अपडेट हुए। कोड नहीं बदले।</string>
+    <string name="notes_import_error">नोट आयात नहीं हो सके</string>
+    <string name="notes_import_wrong_file">यह फ़ाइल नोट निर्यात नहीं है</string>
+    <string name="notes_unlock">नोट अनलॉक करें</string>
+    <string name="notes_import_password">नोट फ़ाइल का पासवर्ड</string>
+    <string name="notes_import_bad_password">गलत पासवर्ड</string>
 </resources>

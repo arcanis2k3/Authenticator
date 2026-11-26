@@ -585,4 +585,27 @@ O tentativă recentă de backup de vault utilizând %1$s a eșuată deoarece IDr
         <item quantity="few">%d elemente selectate</item>
         <item quantity="other">%d de elemente selectate</item>
     </plurals>
+    <string name="action_notes">Notițe</string>
+    <string name="title_activity_notes">Notițe</string>
+    <string name="notes_empty_title">Încă nu există notițe</string>
+    <string name="notes_empty">Parolele Wi-Fi și notițele scurte rămân în acest seif.</string>
+    <string name="add_note">Adaugă notiță</string>
+    <string name="edit_note">Editează notița</string>
+    <string name="note_title_hint">Titlu</string>
+    <string name="note_body_hint">Notiță</string>
+    <string name="note_untitled">Fără titlu</string>
+    <string name="delete_note">Șterge notița</string>
+    <string name="delete_note_confirm">Ștergi această notiță? Acțiunea nu poate fi anulată.</string>
+    <string name="note_copied">Notiță copiată</string>
+    <string name="export_notes">Exportă notițele</string>
+    <string name="import_notes">Importă notițele</string>
+    <string name="notes_exported">Notițe exportate. Fișierul nu conține coduri.</string>
+    <string name="notes_export_plain">Notițe exportate fără criptare, deoarece acest seif nu are parolă.</string>
+    <string name="notes_export_error">Notițele nu au putut fi exportate</string>
+    <string name="notes_imported">%1$d notițe adăugate, %2$d actualizate. Codurile nu au fost schimbate.</string>
+    <string name="notes_import_error">Notițele nu au putut fi importate</string>
+    <string name="notes_import_wrong_file">Acest fișier nu este un export de notițe</string>
+    <string name="notes_unlock">Deblochează notițele</string>
+    <string name="notes_import_password">Parola fișierului de notițe</string>
+    <string name="notes_import_bad_password">Parolă greșită</string>
 </resources>

@@ -630,4 +630,27 @@
         <item quantity="many">Vybráno %d položek</item>
         <item quantity="other">Vybráno %d položek</item>
     </plurals>
+    <string name="action_notes">Poznámky</string>
+    <string name="title_activity_notes">Poznámky</string>
+    <string name="notes_empty_title">Zatím žádné poznámky</string>
+    <string name="notes_empty">Hesla Wi-Fi a krátké poznámky zůstávají v tomto trezoru.</string>
+    <string name="add_note">Přidat poznámku</string>
+    <string name="edit_note">Upravit poznámku</string>
+    <string name="note_title_hint">Název</string>
+    <string name="note_body_hint">Poznámka</string>
+    <string name="note_untitled">Bez názvu</string>
+    <string name="delete_note">Smazat poznámku</string>
+    <string name="delete_note_confirm">Smazat tuto poznámku? Tuto akci nelze vrátit.</string>
+    <string name="note_copied">Poznámka zkopírována</string>
+    <string name="export_notes">Exportovat poznámky</string>
+    <string name="import_notes">Importovat poznámky</string>
+    <string name="notes_exported">Poznámky exportovány. Soubor neobsahuje kódy.</string>
+    <string name="notes_export_plain">Poznámky exportovány bez šifrování, protože tento trezor nemá heslo.</string>
+    <string name="notes_export_error">Poznámky se nepodařilo exportovat</string>
+    <string name="notes_imported">Přidáno %1$d poznámek, aktualizováno %2$d. Kódy se nezměnily.</string>
+    <string name="notes_import_error">Poznámky se nepodařilo importovat</string>
+    <string name="notes_import_wrong_file">Tento soubor není export poznámek</string>
+    <string name="notes_unlock">Odemknout poznámky</string>
+    <string name="notes_import_password">Heslo souboru s poznámkami</string>
+    <string name="notes_import_bad_password">Nesprávné heslo</string>
 </resources>

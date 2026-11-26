@@ -590,4 +590,27 @@
         <item quantity="one">%d element valgt</item>
         <item quantity="other">%d elementer valgt</item>
     </plurals>
+    <string name="action_notes">Noter</string>
+    <string name="title_activity_notes">Noter</string>
+    <string name="notes_empty_title">Ingen noter endnu</string>
+    <string name="notes_empty">Wi-Fi-adgangskoder og korte noter bliver i denne boks.</string>
+    <string name="add_note">Tilføj note</string>
+    <string name="edit_note">Rediger note</string>
+    <string name="note_title_hint">Titel</string>
+    <string name="note_body_hint">Note</string>
+    <string name="note_untitled">Uden titel</string>
+    <string name="delete_note">Slet note</string>
+    <string name="delete_note_confirm">Slet denne note? Det kan ikke fortrydes.</string>
+    <string name="note_copied">Note kopieret</string>
+    <string name="export_notes">Eksportér noter</string>
+    <string name="import_notes">Importér noter</string>
+    <string name="notes_exported">Noter eksporteret. Filen indeholder ingen koder.</string>
+    <string name="notes_export_plain">Noter eksporteret uden kryptering, fordi denne boks ikke har en adgangskode.</string>
+    <string name="notes_export_error">Kunne ikke eksportere noter</string>
+    <string name="notes_imported">%1$d noter tilføjet, %2$d opdateret. Koderne blev ikke ændret.</string>
+    <string name="notes_import_error">Kunne ikke importere noter</string>
+    <string name="notes_import_wrong_file">Denne fil er ikke en noteeksport</string>
+    <string name="notes_unlock">Lås noter op</string>
+    <string name="notes_import_password">Adgangskode til notefilen</string>
+    <string name="notes_import_bad_password">Forkert adgangskode</string>
 </resources>

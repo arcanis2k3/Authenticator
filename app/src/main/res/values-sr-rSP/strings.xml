@@ -609,4 +609,27 @@
         <item quantity="few">%d предмета изабрано</item>
         <item quantity="other">%d предмета изабрано</item>
     </plurals>
+    <string name="action_notes">Белешке</string>
+    <string name="title_activity_notes">Белешке</string>
+    <string name="notes_empty_title">Још нема белешки</string>
+    <string name="notes_empty">Wi-Fi лозинке и кратке белешке остају у овом трезору.</string>
+    <string name="add_note">Додај белешку</string>
+    <string name="edit_note">Уреди белешку</string>
+    <string name="note_title_hint">Наслов</string>
+    <string name="note_body_hint">Белешка</string>
+    <string name="note_untitled">Без наслова</string>
+    <string name="delete_note">Обриши белешку</string>
+    <string name="delete_note_confirm">Обрисати ову белешку? Ово се не може опозвати.</string>
+    <string name="note_copied">Белешка је копирана</string>
+    <string name="export_notes">Извези белешке</string>
+    <string name="import_notes">Увези белешке</string>
+    <string name="notes_exported">Белешке су извезене. Датотека нема кодове.</string>
+    <string name="notes_export_plain">Белешке су извезене без шифровања, јер овај трезор нема лозинку.</string>
+    <string name="notes_export_error">Белешке нису извезене</string>
+    <string name="notes_imported">Додато %1$d, ажурирано %2$d. Кодови нису промењени.</string>
+    <string name="notes_import_error">Белешке нису увезене</string>
+    <string name="notes_import_wrong_file">Ова датотека није извоз белешки</string>
+    <string name="notes_unlock">Откључај белешке</string>
+    <string name="notes_import_password">Лозинка датотеке белешки</string>
+    <string name="notes_import_bad_password">Погрешна лозинка</string>
 </resources>

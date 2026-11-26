@@ -627,4 +627,27 @@
         <item quantity="many">Вибрано %d елементів</item>
         <item quantity="other">Вибрано %d елементів</item>
     </plurals>
+    <string name="action_notes">Нотатки</string>
+    <string name="title_activity_notes">Нотатки</string>
+    <string name="notes_empty_title">Нотаток ще немає</string>
+    <string name="notes_empty">Паролі Wi-Fi і короткі нотатки залишаються в цьому сховищі.</string>
+    <string name="add_note">Додати нотатку</string>
+    <string name="edit_note">Змінити нотатку</string>
+    <string name="note_title_hint">Назва</string>
+    <string name="note_body_hint">Нотатка</string>
+    <string name="note_untitled">Без назви</string>
+    <string name="delete_note">Видалити нотатку</string>
+    <string name="delete_note_confirm">Видалити цю нотатку? Цю дію не можна скасувати.</string>
+    <string name="note_copied">Нотатку скопійовано</string>
+    <string name="export_notes">Експорт нотаток</string>
+    <string name="import_notes">Імпорт нотаток</string>
+    <string name="notes_exported">Нотатки експортовано. Файл не містить кодів.</string>
+    <string name="notes_export_plain">Нотатки експортовано без шифрування, бо це сховище не має пароля.</string>
+    <string name="notes_export_error">Не вдалося експортувати нотатки</string>
+    <string name="notes_imported">Додано нотаток: %1$d, оновлено: %2$d. Коди не змінено.</string>
+    <string name="notes_import_error">Не вдалося імпортувати нотатки</string>
+    <string name="notes_import_wrong_file">Цей файл не є експортом нотаток</string>
+    <string name="notes_unlock">Розблокувати нотатки</string>
+    <string name="notes_import_password">Пароль файлу нотаток</string>
+    <string name="notes_import_bad_password">Неправильний пароль</string>
 </resources>

@@ -570,4 +570,27 @@
     <plurals name="dropdown_checkboxes_default_count">
         <item quantity="other">%d개 항목 선택됨</item>
     </plurals>
+    <string name="action_notes">메모</string>
+    <string name="title_activity_notes">메모</string>
+    <string name="notes_empty_title">아직 메모가 없습니다</string>
+    <string name="notes_empty">Wi-Fi 비밀번호와 짧은 메모는 이 금고에 남습니다.</string>
+    <string name="add_note">메모 추가</string>
+    <string name="edit_note">메모 편집</string>
+    <string name="note_title_hint">제목</string>
+    <string name="note_body_hint">메모</string>
+    <string name="note_untitled">제목 없음</string>
+    <string name="delete_note">메모 삭제</string>
+    <string name="delete_note_confirm">이 메모를 삭제할까요? 되돌릴 수 없습니다.</string>
+    <string name="note_copied">메모를 복사했습니다</string>
+    <string name="export_notes">메모 내보내기</string>
+    <string name="import_notes">메모 가져오기</string>
+    <string name="notes_exported">메모를 내보냈습니다. 파일에는 코드가 없습니다.</string>
+    <string name="notes_export_plain">이 금고에 비밀번호가 없어 메모를 암호화하지 않고 내보냈습니다.</string>
+    <string name="notes_export_error">메모를 내보내지 못했습니다</string>
+    <string name="notes_imported">메모 %1$d개를 추가하고 %2$d개를 업데이트했습니다. 코드는 바뀌지 않았습니다.</string>
+    <string name="notes_import_error">메모를 가져오지 못했습니다</string>
+    <string name="notes_import_wrong_file">이 파일은 메모 내보내기가 아닙니다</string>
+    <string name="notes_unlock">메모 잠금 해제</string>
+    <string name="notes_import_password">메모 파일의 비밀번호</string>
+    <string name="notes_import_bad_password">비밀번호가 올바르지 않습니다</string>
 </resources>

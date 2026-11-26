@@ -669,4 +669,27 @@
         <item quantity="many">تم تحديد %d عنصر</item>
         <item quantity="other">تم تحديد %d عنصر</item>
     </plurals>
+    <string name="action_notes">ملاحظات</string>
+    <string name="title_activity_notes">ملاحظات</string>
+    <string name="notes_empty_title">لا توجد ملاحظات بعد</string>
+    <string name="notes_empty">تبقى كلمات مرور Wi-Fi والملاحظات القصيرة في هذا الخزنة.</string>
+    <string name="add_note">إضافة ملاحظة</string>
+    <string name="edit_note">تعديل الملاحظة</string>
+    <string name="note_title_hint">العنوان</string>
+    <string name="note_body_hint">ملاحظة</string>
+    <string name="note_untitled">بدون عنوان</string>
+    <string name="delete_note">حذف الملاحظة</string>
+    <string name="delete_note_confirm">حذف هذه الملاحظة؟ لا يمكن التراجع.</string>
+    <string name="note_copied">تم نسخ الملاحظة</string>
+    <string name="export_notes">تصدير الملاحظات</string>
+    <string name="import_notes">استيراد الملاحظات</string>
+    <string name="notes_exported">تم تصدير الملاحظات. لا يحتوي الملف على رموز.</string>
+    <string name="notes_export_plain">تم تصدير الملاحظات دون تشفير لأن هذه الخزنة بلا كلمة مرور.</string>
+    <string name="notes_export_error">تعذر تصدير الملاحظات</string>
+    <string name="notes_imported">أُضيفت %1$d ملاحظات وحُدثت %2$d. لم تتغير الرموز.</string>
+    <string name="notes_import_error">تعذر استيراد الملاحظات</string>
+    <string name="notes_import_wrong_file">هذا الملف ليس تصدير ملاحظات</string>
+    <string name="notes_unlock">فتح الملاحظات</string>
+    <string name="notes_import_password">كلمة مرور ملف الملاحظات</string>
+    <string name="notes_import_bad_password">كلمة مرور خاطئة</string>
 </resources>

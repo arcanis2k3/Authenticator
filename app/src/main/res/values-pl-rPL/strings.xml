@@ -632,4 +632,27 @@ zlokalizowanego w wewnętrznym katalogu Steam.</string>
         <item quantity="many">Wybrano %d elementów</item>
         <item quantity="other">Wybrano %d elementów</item>
     </plurals>
+    <string name="action_notes">Notatki</string>
+    <string name="title_activity_notes">Notatki</string>
+    <string name="notes_empty_title">Brak notatek</string>
+    <string name="notes_empty">Hasła Wi-Fi i krótkie notatki zostają w tym sejfie.</string>
+    <string name="add_note">Dodaj notatkę</string>
+    <string name="edit_note">Edytuj notatkę</string>
+    <string name="note_title_hint">Tytuł</string>
+    <string name="note_body_hint">Notatka</string>
+    <string name="note_untitled">Bez tytułu</string>
+    <string name="delete_note">Usuń notatkę</string>
+    <string name="delete_note_confirm">Usunąć tę notatkę? Tej czynności nie można cofnąć.</string>
+    <string name="note_copied">Notatka skopiowana</string>
+    <string name="export_notes">Eksportuj notatki</string>
+    <string name="import_notes">Importuj notatki</string>
+    <string name="notes_exported">Notatki wyeksportowane. Plik nie zawiera kodów.</string>
+    <string name="notes_export_plain">Notatki wyeksportowane bez szyfrowania, bo ten sejf nie ma hasła.</string>
+    <string name="notes_export_error">Nie udało się wyeksportować notatek</string>
+    <string name="notes_imported">Dodano %1$d notatek, zaktualizowano %2$d. Kody nie zostały zmienione.</string>
+    <string name="notes_import_error">Nie udało się zaimportować notatek</string>
+    <string name="notes_import_wrong_file">Ten plik nie jest eksportem notatek</string>
+    <string name="notes_unlock">Odblokuj notatki</string>
+    <string name="notes_import_password">Hasło pliku notatek</string>
+    <string name="notes_import_bad_password">Nieprawidłowe hasło</string>
 </resources>

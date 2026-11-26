@@ -15,16 +15,21 @@ public class Vault {
     private static final int VERSION = 3;
     private final UUIDMap<VaultEntry> _entries = new UUIDMap<>();
     private final UUIDMap<VaultGroup> _groups = new UUIDMap<>();
+    private final UUIDMap<VaultNote> _notes = new UUIDMap<>();
     private boolean _iconsOptimized = true;
 
     // Whether we've migrated the group list to the new format while parsing the vault
     private boolean _isGroupsMigrationFresh = false;
 
     public JSONObject toJson() {
-        return toJson(null);
+        return toJson(null, true);
     }
 
     public JSONObject toJson(@Nullable EntryFilter filter) {
+        return toJson(filter, false);
+    }
+
+    private JSONObject toJson(@Nullable EntryFilter filter, boolean includeNotes) {
         try {
             JSONArray entriesArray = new JSONArray();
             for (VaultEntry e : _entries) {
@@ -44,6 +49,17 @@ public class Vault {
             obj.put("entries", entriesArray);
             obj.put("groups", groupsArray);
             obj.put("icons_optimized", _iconsOptimized);
+
+            // Notes stay in the saved vault. Code exports omit them, so an Aegis,
+            // HTML or URI file never contains notes. Aegis ignores this key if a
+            // full vault file is opened there.
+            if (includeNotes && !_notes.getValues().isEmpty()) {
+                JSONArray notesArray = new JSONArray();
+                for (VaultNote note : _notes) {
+                    notesArray.put(note.toJson());
+                }
+                obj.put("notes", notesArray);
+            }
 
             return obj;
         } catch (JSONException e) {
@@ -91,6 +107,13 @@ public class Vault {
 
             if (!obj.optBoolean("icons_optimized")) {
                 vault.setIconsOptimized(false);
+            }
+
+            if (obj.has("notes")) {
+                JSONArray notesArray = obj.getJSONArray("notes");
+                for (int i = 0; i < notesArray.length(); i++) {
+                    vault.getNotes().add(VaultNote.fromJson(notesArray.getJSONObject(i)));
+                }
             }
         } catch (VaultEntryException | JSONException e) {
             throw new VaultException(e);
@@ -143,6 +166,10 @@ public class Vault {
 
     public UUIDMap<VaultGroup> getGroups() {
         return _groups;
+    }
+
+    public UUIDMap<VaultNote> getNotes() {
+        return _notes;
     }
 
     public interface EntryFilter {

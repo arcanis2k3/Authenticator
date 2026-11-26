@@ -569,4 +569,27 @@
     <plurals name="dropdown_checkboxes_default_count">
         <item quantity="other">已選擇 %d 個項目</item>
     </plurals>
+    <string name="action_notes">筆記</string>
+    <string name="title_activity_notes">筆記</string>
+    <string name="notes_empty_title">還沒有筆記</string>
+    <string name="notes_empty">Wi-Fi 密碼和短筆記留在這個保險庫裡。</string>
+    <string name="add_note">新增筆記</string>
+    <string name="edit_note">編輯筆記</string>
+    <string name="note_title_hint">標題</string>
+    <string name="note_body_hint">筆記</string>
+    <string name="note_untitled">無標題</string>
+    <string name="delete_note">刪除筆記</string>
+    <string name="delete_note_confirm">刪除這則筆記？此動作無法復原。</string>
+    <string name="note_copied">已複製筆記</string>
+    <string name="export_notes">匯出筆記</string>
+    <string name="import_notes">匯入筆記</string>
+    <string name="notes_exported">筆記已匯出。檔案不含驗證碼。</string>
+    <string name="notes_export_plain">此保險庫沒有密碼，因此筆記未加密匯出。</string>
+    <string name="notes_export_error">無法匯出筆記</string>
+    <string name="notes_imported">新增 %1$d 則，更新 %2$d 則。驗證碼未變更。</string>
+    <string name="notes_import_error">無法匯入筆記</string>
+    <string name="notes_import_wrong_file">此檔案不是筆記匯出</string>
+    <string name="notes_unlock">解鎖筆記</string>
+    <string name="notes_import_password">筆記檔案的密碼</string>
+    <string name="notes_import_bad_password">密碼錯誤</string>
 </resources>

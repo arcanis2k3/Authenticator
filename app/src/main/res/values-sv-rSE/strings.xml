@@ -590,4 +590,27 @@
         <item quantity="one">%d objekt valt</item>
         <item quantity="other">%d objekt valda</item>
     </plurals>
+    <string name="action_notes">Anteckningar</string>
+    <string name="title_activity_notes">Anteckningar</string>
+    <string name="notes_empty_title">Inga anteckningar ännu</string>
+    <string name="notes_empty">Wi-Fi-lösenord och korta anteckningar stannar i detta valv.</string>
+    <string name="add_note">Lägg till anteckning</string>
+    <string name="edit_note">Redigera anteckning</string>
+    <string name="note_title_hint">Titel</string>
+    <string name="note_body_hint">Anteckning</string>
+    <string name="note_untitled">Utan titel</string>
+    <string name="delete_note">Ta bort anteckning</string>
+    <string name="delete_note_confirm">Ta bort den här anteckningen? Det går inte att ångra.</string>
+    <string name="note_copied">Anteckning kopierad</string>
+    <string name="export_notes">Exportera anteckningar</string>
+    <string name="import_notes">Importera anteckningar</string>
+    <string name="notes_exported">Anteckningar exporterade. Filen innehåller inga koder.</string>
+    <string name="notes_export_plain">Anteckningar exporterade utan kryptering, eftersom valvet inte har något lösenord.</string>
+    <string name="notes_export_error">Kunde inte exportera anteckningar</string>
+    <string name="notes_imported">%1$d anteckningar lades till, %2$d uppdaterades. Koderna ändrades inte.</string>
+    <string name="notes_import_error">Kunde inte importera anteckningar</string>
+    <string name="notes_import_wrong_file">Den här filen är inte en export av anteckningar</string>
+    <string name="notes_unlock">Lås upp anteckningar</string>
+    <string name="notes_import_password">Lösenord för anteckningsfilen</string>
+    <string name="notes_import_bad_password">Fel lösenord</string>
 </resources>

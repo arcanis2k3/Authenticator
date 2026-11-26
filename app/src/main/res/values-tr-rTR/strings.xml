@@ -586,4 +586,27 @@
         <item quantity="one">%d öğe seçildi</item>
         <item quantity="other">%d öğe seçildi</item>
     </plurals>
+    <string name="action_notes">Notlar</string>
+    <string name="title_activity_notes">Notlar</string>
+    <string name="notes_empty_title">Henüz not yok</string>
+    <string name="notes_empty">Wi-Fi parolaları ve kısa notlar bu kasada kalır.</string>
+    <string name="add_note">Not ekle</string>
+    <string name="edit_note">Notu düzenle</string>
+    <string name="note_title_hint">Başlık</string>
+    <string name="note_body_hint">Not</string>
+    <string name="note_untitled">Adsız</string>
+    <string name="delete_note">Notu sil</string>
+    <string name="delete_note_confirm">Bu not silinsin mi? Bu işlem geri alınamaz.</string>
+    <string name="note_copied">Not kopyalandı</string>
+    <string name="export_notes">Notları dışa aktar</string>
+    <string name="import_notes">Notları içe aktar</string>
+    <string name="notes_exported">Notlar dışa aktarıldı. Dosyada kod yok.</string>
+    <string name="notes_export_plain">Kasanın parolası olmadığı için notlar şifresiz dışa aktarıldı.</string>
+    <string name="notes_export_error">Notlar dışa aktarılamadı</string>
+    <string name="notes_imported">%1$d not eklendi, %2$d güncellendi. Kodlar değişmedi.</string>
+    <string name="notes_import_error">Notlar içe aktarılamadı</string>
+    <string name="notes_import_wrong_file">Bu dosya bir not dışa aktarımı değil</string>
+    <string name="notes_unlock">Notların kilidini aç</string>
+    <string name="notes_import_password">Not dosyasının parolası</string>
+    <string name="notes_import_bad_password">Yanlış parola</string>
 </resources>

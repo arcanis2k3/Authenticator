@@ -589,4 +589,27 @@
         <item quantity="one">%d elem kiválasztva</item>
         <item quantity="other">%d elem kiválasztva</item>
     </plurals>
+    <string name="action_notes">Jegyzetek</string>
+    <string name="title_activity_notes">Jegyzetek</string>
+    <string name="notes_empty_title">Még nincsenek jegyzetek</string>
+    <string name="notes_empty">A Wi-Fi jelszavak és a rövid jegyzetek ebben a tárolóban maradnak.</string>
+    <string name="add_note">Jegyzet hozzáadása</string>
+    <string name="edit_note">Jegyzet szerkesztése</string>
+    <string name="note_title_hint">Cím</string>
+    <string name="note_body_hint">Jegyzet</string>
+    <string name="note_untitled">Névtelen</string>
+    <string name="delete_note">Jegyzet törlése</string>
+    <string name="delete_note_confirm">Törlöd ezt a jegyzetet? Ezt nem lehet visszavonni.</string>
+    <string name="note_copied">Jegyzet másolva</string>
+    <string name="export_notes">Jegyzetek exportálása</string>
+    <string name="import_notes">Jegyzetek importálása</string>
+    <string name="notes_exported">Jegyzetek exportálva. A fájl nem tartalmaz kódokat.</string>
+    <string name="notes_export_plain">A jegyzetek titkosítás nélkül lettek exportálva, mert ennek a tárolónak nincs jelszava.</string>
+    <string name="notes_export_error">A jegyzetek exportálása nem sikerült</string>
+    <string name="notes_imported">%1$d jegyzet hozzáadva, %2$d frissítve. A kódok nem változtak.</string>
+    <string name="notes_import_error">A jegyzetek importálása nem sikerült</string>
+    <string name="notes_import_wrong_file">Ez a fájl nem jegyzetexport</string>
+    <string name="notes_unlock">Jegyzetek feloldása</string>
+    <string name="notes_import_password">A jegyzetfájl jelszava</string>
+    <string name="notes_import_bad_password">Hibás jelszó</string>
 </resources>

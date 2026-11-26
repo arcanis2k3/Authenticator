@@ -9,6 +9,7 @@ import androidx.core.util.AtomicFile;
 import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
 import com.beemdevelopment.aegis.util.Cloner;
 import com.beemdevelopment.aegis.util.IOUtils;
+import com.beemdevelopment.aegis.util.UUIDMap;
 import com.google.zxing.WriterException;
 
 import org.json.JSONObject;
@@ -270,6 +271,10 @@ public class VaultRepository {
 
     public Collection<VaultEntry> getEntries() {
         return _vault.getEntries().getValues();
+    }
+
+    public UUIDMap<VaultNote> getNotes() {
+        return _vault.getNotes();
     }
 
     public void addGroup(VaultGroup group) {

@@ -609,4 +609,27 @@
         <item quantity="one">Atlasīts %d vienums</item>
         <item quantity="other">Atlasīti %d vienumi</item>
     </plurals>
+    <string name="action_notes">Piezīmes</string>
+    <string name="title_activity_notes">Piezīmes</string>
+    <string name="notes_empty_title">Vēl nav piezīmju</string>
+    <string name="notes_empty">Wi-Fi paroles un īsas piezīmes paliek šajā glabātuvē.</string>
+    <string name="add_note">Pievienot piezīmi</string>
+    <string name="edit_note">Rediģēt piezīmi</string>
+    <string name="note_title_hint">Nosaukums</string>
+    <string name="note_body_hint">Piezīme</string>
+    <string name="note_untitled">Bez nosaukuma</string>
+    <string name="delete_note">Dzēst piezīmi</string>
+    <string name="delete_note_confirm">Dzēst šo piezīmi? To nevar atsaukt.</string>
+    <string name="note_copied">Piezīme nokopēta</string>
+    <string name="export_notes">Eksportēt piezīmes</string>
+    <string name="import_notes">Importēt piezīmes</string>
+    <string name="notes_exported">Piezīmes eksportētas. Failā nav kodu.</string>
+    <string name="notes_export_plain">Piezīmes eksportētas bez šifrēšanas, jo šai glabātuvei nav paroles.</string>
+    <string name="notes_export_error">Neizdevās eksportēt piezīmes</string>
+    <string name="notes_imported">Pievienotas %1$d, atjauninātas %2$d. Kodi nav mainīti.</string>
+    <string name="notes_import_error">Neizdevās importēt piezīmes</string>
+    <string name="notes_import_wrong_file">Šis fails nav piezīmju eksports</string>
+    <string name="notes_unlock">Atbloķēt piezīmes</string>
+    <string name="notes_import_password">Piezīmju faila parole</string>
+    <string name="notes_import_bad_password">Nepareiza parole</string>
 </resources>

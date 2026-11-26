@@ -589,4 +589,27 @@
         <item quantity="one">%d elemento selezionato</item>
         <item quantity="other">%d elementi selezionati</item>
     </plurals>
+    <string name="action_notes">Note</string>
+    <string name="title_activity_notes">Note</string>
+    <string name="notes_empty_title">Ancora nessuna nota</string>
+    <string name="notes_empty">Le password Wi-Fi e le note brevi restano in questo vault.</string>
+    <string name="add_note">Aggiungi nota</string>
+    <string name="edit_note">Modifica nota</string>
+    <string name="note_title_hint">Titolo</string>
+    <string name="note_body_hint">Nota</string>
+    <string name="note_untitled">Senza titolo</string>
+    <string name="delete_note">Elimina nota</string>
+    <string name="delete_note_confirm">Eliminare questa nota? L\'azione non può essere annullata.</string>
+    <string name="note_copied">Nota copiata</string>
+    <string name="export_notes">Esporta note</string>
+    <string name="import_notes">Importa note</string>
+    <string name="notes_exported">Note esportate. Il file non contiene codici.</string>
+    <string name="notes_export_plain">Note esportate senza cifratura, perché questo vault non ha una password.</string>
+    <string name="notes_export_error">Impossibile esportare le note</string>
+    <string name="notes_imported">%1$d note aggiunte, %2$d aggiornate. I codici non sono cambiati.</string>
+    <string name="notes_import_error">Impossibile importare le note</string>
+    <string name="notes_import_wrong_file">Questo file non è un\'esportazione di note</string>
+    <string name="notes_unlock">Sblocca note</string>
+    <string name="notes_import_password">Password del file delle note</string>
+    <string name="notes_import_bad_password">Password errata</string>
 </resources>

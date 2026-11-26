@@ -1,9 +1,11 @@
 package com.beemdevelopment.aegis.vault;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 import com.beemdevelopment.aegis.util.IOUtils;
 
+import org.json.JSONObject;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -27,6 +29,26 @@ public class VaultTest {
         // After saving to and loading from the new format, the same checks should still pass
         vault = Vault.fromJson(vault.toJson());
         checkGroups(vault);
+    }
+
+    @Test
+    public void testNotesStayOutOfCodeExport() throws Exception {
+        Vault vault = new Vault();
+        VaultNote note = new VaultNote();
+        note.setTitle("wifi");
+        note.setBody("secret");
+        vault.getNotes().add(note);
+
+        JSONObject saved = vault.toJson();
+        assertEquals(1, saved.getJSONArray("notes").length());
+        assertEquals(0, saved.getJSONArray("entries").length());
+
+        JSONObject exported = vault.toJson(entry -> true);
+        assertFalse(exported.has("notes"));
+
+        Vault loaded = Vault.fromJson(saved);
+        assertEquals("secret", loaded.getNotes().iterator().next().getBody());
+        assertEquals(0, loaded.getEntries().getValues().size());
     }
 
     private static void checkGroups(Vault vault) {

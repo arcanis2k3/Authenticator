@@ -478,4 +478,27 @@
         <item quantity="one">Seleicionóse %d elementu</item>
         <item quantity="other">Seleicionáronse %d elementos</item>
     </plurals>
+    <string name="action_notes">Notes</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="notes_empty_title">Entá nun hai notes</string>
+    <string name="notes_empty">Les contraseñes Wi-Fi y les notes curties quédense nesti caxón.</string>
+    <string name="add_note">Amestar nota</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="note_title_hint">Títulu</string>
+    <string name="note_body_hint">Nota</string>
+    <string name="note_untitled">Ensin títulu</string>
+    <string name="delete_note">Desaniciar nota</string>
+    <string name="delete_note_confirm">¿Desaniciar esta nota? Nun se pue desfacer.</string>
+    <string name="note_copied">Nota copiada</string>
+    <string name="export_notes">Esportar notes</string>
+    <string name="import_notes">Importar notes</string>
+    <string name="notes_exported">Notes esportaes. El ficheru nun tien códigos.</string>
+    <string name="notes_export_plain">Notes esportaes ensin cifráu, porque esti caxón nun tien contraseña.</string>
+    <string name="notes_export_error">Nun se pudieron esportar les notes</string>
+    <string name="notes_imported">Amestáronse %1$d notes y anováronse %2$d. Los códigos nun camudaron.</string>
+    <string name="notes_import_error">Nun se pudieron importar les notes</string>
+    <string name="notes_import_wrong_file">Esti ficheru nun ye una esportación de notes</string>
+    <string name="notes_unlock">Desbloquiar notes</string>
+    <string name="notes_import_password">Contraseña del ficheru de notes</string>
+    <string name="notes_import_bad_password">Contraseña incorreuta</string>
 </resources>

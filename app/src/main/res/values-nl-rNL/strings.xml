@@ -590,4 +590,27 @@
         <item quantity="one">%d item geselecteerd</item>
         <item quantity="other">%d items geselecteerd</item>
     </plurals>
+    <string name="action_notes">Notities</string>
+    <string name="title_activity_notes">Notities</string>
+    <string name="notes_empty_title">Nog geen notities</string>
+    <string name="notes_empty">Wifi-wachtwoorden en korte notities blijven in deze kluis.</string>
+    <string name="add_note">Notitie toevoegen</string>
+    <string name="edit_note">Notitie bewerken</string>
+    <string name="note_title_hint">Titel</string>
+    <string name="note_body_hint">Notitie</string>
+    <string name="note_untitled">Zonder titel</string>
+    <string name="delete_note">Notitie verwijderen</string>
+    <string name="delete_note_confirm">Deze notitie verwijderen? Dit kan niet ongedaan worden gemaakt.</string>
+    <string name="note_copied">Notitie gekopieerd</string>
+    <string name="export_notes">Notities exporteren</string>
+    <string name="import_notes">Notities importeren</string>
+    <string name="notes_exported">Notities geëxporteerd. Het bestand bevat geen codes.</string>
+    <string name="notes_export_plain">Notities zonder versleuteling geëxporteerd, omdat deze kluis geen wachtwoord heeft.</string>
+    <string name="notes_export_error">Notities exporteren mislukt</string>
+    <string name="notes_imported">%1$d notities toegevoegd, %2$d bijgewerkt. Codes zijn niet gewijzigd.</string>
+    <string name="notes_import_error">Notities importeren mislukt</string>
+    <string name="notes_import_wrong_file">Dit bestand is geen notitie-export</string>
+    <string name="notes_unlock">Notities ontgrendelen</string>
+    <string name="notes_import_password">Wachtwoord van het notitiebestand</string>
+    <string name="notes_import_bad_password">Onjuist wachtwoord</string>
 </resources>

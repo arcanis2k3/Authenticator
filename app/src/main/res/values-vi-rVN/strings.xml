@@ -571,4 +571,27 @@
     <plurals name="dropdown_checkboxes_default_count">
         <item quantity="other">%d mục đã chọn</item>
     </plurals>
+    <string name="action_notes">Ghi chú</string>
+    <string name="title_activity_notes">Ghi chú</string>
+    <string name="notes_empty_title">Chưa có ghi chú</string>
+    <string name="notes_empty">Mật khẩu Wi-Fi và ghi chú ngắn ở lại trong kho này.</string>
+    <string name="add_note">Thêm ghi chú</string>
+    <string name="edit_note">Sửa ghi chú</string>
+    <string name="note_title_hint">Tiêu đề</string>
+    <string name="note_body_hint">Ghi chú</string>
+    <string name="note_untitled">Không tiêu đề</string>
+    <string name="delete_note">Xóa ghi chú</string>
+    <string name="delete_note_confirm">Xóa ghi chú này? Không thể hoàn tác.</string>
+    <string name="note_copied">Đã sao chép ghi chú</string>
+    <string name="export_notes">Xuất ghi chú</string>
+    <string name="import_notes">Nhập ghi chú</string>
+    <string name="notes_exported">Đã xuất ghi chú. Tệp không chứa mã.</string>
+    <string name="notes_export_plain">Đã xuất ghi chú không mã hóa vì kho này không có mật khẩu.</string>
+    <string name="notes_export_error">Không xuất được ghi chú</string>
+    <string name="notes_imported">Đã thêm %1$d ghi chú, cập nhật %2$d. Mã không đổi.</string>
+    <string name="notes_import_error">Không nhập được ghi chú</string>
+    <string name="notes_import_wrong_file">Tệp này không phải bản xuất ghi chú</string>
+    <string name="notes_unlock">Mở khóa ghi chú</string>
+    <string name="notes_import_password">Mật khẩu của tệp ghi chú</string>
+    <string name="notes_import_bad_password">Sai mật khẩu</string>
 </resources>

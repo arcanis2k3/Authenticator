@@ -579,4 +579,27 @@
         <item quantity="one">%d item selecionado</item>
         <item quantity="other">%d itens selecionados</item>
     </plurals>
+    <string name="action_notes">Notas</string>
+    <string name="title_activity_notes">Notas</string>
+    <string name="notes_empty_title">Ainda sem notas</string>
+    <string name="notes_empty">As palavras-passe Wi-Fi e as notas curtas ficam neste cofre.</string>
+    <string name="add_note">Adicionar nota</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="note_title_hint">Título</string>
+    <string name="note_body_hint">Nota</string>
+    <string name="note_untitled">Sem título</string>
+    <string name="delete_note">Eliminar nota</string>
+    <string name="delete_note_confirm">Eliminar esta nota? Esta ação não pode ser anulada.</string>
+    <string name="note_copied">Nota copiada</string>
+    <string name="export_notes">Exportar notas</string>
+    <string name="import_notes">Importar notas</string>
+    <string name="notes_exported">Notas exportadas. O ficheiro não contém códigos.</string>
+    <string name="notes_export_plain">Notas exportadas sem encriptação, porque este cofre não tem palavra-passe.</string>
+    <string name="notes_export_error">Não foi possível exportar as notas</string>
+    <string name="notes_imported">%1$d notas adicionadas, %2$d atualizadas. Os códigos não foram alterados.</string>
+    <string name="notes_import_error">Não foi possível importar as notas</string>
+    <string name="notes_import_wrong_file">Este ficheiro não é uma exportação de notas</string>
+    <string name="notes_unlock">Desbloquear notas</string>
+    <string name="notes_import_password">Palavra-passe do ficheiro de notas</string>
+    <string name="notes_import_bad_password">Palavra-passe errada</string>
 </resources>

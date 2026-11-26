@@ -561,4 +561,27 @@
         <item quantity="two">נבחרו שני פריטים</item>
         <item quantity="other">נבחרו %d פריטים</item>
     </plurals>
+    <string name="action_notes">הערות</string>
+    <string name="title_activity_notes">הערות</string>
+    <string name="notes_empty_title">אין עדיין הערות</string>
+    <string name="notes_empty">סיסמאות Wi-Fi והערות קצרות נשארות בכספת הזו.</string>
+    <string name="add_note">הוספת הערה</string>
+    <string name="edit_note">עריכת הערה</string>
+    <string name="note_title_hint">כותרת</string>
+    <string name="note_body_hint">הערה</string>
+    <string name="note_untitled">ללא כותרת</string>
+    <string name="delete_note">מחיקת הערה</string>
+    <string name="delete_note_confirm">למחוק את ההערה הזו? אי אפשר לבטל.</string>
+    <string name="note_copied">ההערה הועתקה</string>
+    <string name="export_notes">ייצוא הערות</string>
+    <string name="import_notes">ייבוא הערות</string>
+    <string name="notes_exported">ההערות יוצאו. הקובץ אינו מכיל קודים.</string>
+    <string name="notes_export_plain">ההערות יוצאו בלי הצפנה כי לכספת הזו אין סיסמה.</string>
+    <string name="notes_export_error">לא ניתן לייצא הערות</string>
+    <string name="notes_imported">נוספו %1$d הערות, %2$d עודכנו. הקודים לא השתנו.</string>
+    <string name="notes_import_error">לא ניתן לייבא הערות</string>
+    <string name="notes_import_wrong_file">הקובץ הזה אינו ייצוא הערות</string>
+    <string name="notes_unlock">פתיחת הערות</string>
+    <string name="notes_import_password">הסיסמה של קובץ ההערות</string>
+    <string name="notes_import_bad_password">סיסמה שגויה</string>
 </resources>

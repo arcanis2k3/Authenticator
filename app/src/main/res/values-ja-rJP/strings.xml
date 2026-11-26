@@ -484,4 +484,27 @@
     <plurals name="dropdown_checkboxes_default_count">
         <item quantity="other">%d 個のアイテムを選択</item>
     </plurals>
+    <string name="action_notes">メモ</string>
+    <string name="title_activity_notes">メモ</string>
+    <string name="notes_empty_title">メモはまだありません</string>
+    <string name="notes_empty">Wi-Fiのパスワードと短いメモはこの保管庫に残ります。</string>
+    <string name="add_note">メモを追加</string>
+    <string name="edit_note">メモを編集</string>
+    <string name="note_title_hint">タイトル</string>
+    <string name="note_body_hint">メモ</string>
+    <string name="note_untitled">無題</string>
+    <string name="delete_note">メモを削除</string>
+    <string name="delete_note_confirm">このメモを削除しますか？元に戻せません。</string>
+    <string name="note_copied">メモをコピーしました</string>
+    <string name="export_notes">メモを書き出す</string>
+    <string name="import_notes">メモを読み込む</string>
+    <string name="notes_exported">メモを書き出しました。ファイルにコードは含まれません。</string>
+    <string name="notes_export_plain">この保管庫にパスワードがないため、メモは暗号化せずに書き出されました。</string>
+    <string name="notes_export_error">メモを書き出せませんでした</string>
+    <string name="notes_imported">%1$d件追加、%2$d件更新しました。コードは変更されていません。</string>
+    <string name="notes_import_error">メモを読み込めませんでした</string>
+    <string name="notes_import_wrong_file">このファイルはメモの書き出しではありません</string>
+    <string name="notes_unlock">メモのロックを解除</string>
+    <string name="notes_import_password">メモファイルのパスワード</string>
+    <string name="notes_import_bad_password">パスワードが違います</string>
 </resources>

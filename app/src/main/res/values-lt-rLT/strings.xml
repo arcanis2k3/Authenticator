@@ -435,4 +435,27 @@
         <item quantity="many">prieš %d metų</item>
         <item quantity="other">prieš %d metus</item>
     </plurals>
+    <string name="action_notes">Užrašai</string>
+    <string name="title_activity_notes">Užrašai</string>
+    <string name="notes_empty_title">Užrašų dar nėra</string>
+    <string name="notes_empty">Wi-Fi slaptažodžiai ir trumpi užrašai lieka šiame seife.</string>
+    <string name="add_note">Pridėti užrašą</string>
+    <string name="edit_note">Redaguoti užrašą</string>
+    <string name="note_title_hint">Pavadinimas</string>
+    <string name="note_body_hint">Užrašas</string>
+    <string name="note_untitled">Be pavadinimo</string>
+    <string name="delete_note">Ištrinti užrašą</string>
+    <string name="delete_note_confirm">Ištrinti šį užrašą? To negalima atšaukti.</string>
+    <string name="note_copied">Užrašas nukopijuotas</string>
+    <string name="export_notes">Eksportuoti užrašus</string>
+    <string name="import_notes">Importuoti užrašus</string>
+    <string name="notes_exported">Užrašai eksportuoti. Faile nėra kodų.</string>
+    <string name="notes_export_plain">Užrašai eksportuoti be šifravimo, nes šis seifas neturi slaptažodžio.</string>
+    <string name="notes_export_error">Nepavyko eksportuoti užrašų</string>
+    <string name="notes_imported">Pridėta %1$d, atnaujinta %2$d. Kodai nepasikeitė.</string>
+    <string name="notes_import_error">Nepavyko importuoti užrašų</string>
+    <string name="notes_import_wrong_file">Šis failas nėra užrašų eksportas</string>
+    <string name="notes_unlock">Atrakinti užrašus</string>
+    <string name="notes_import_password">Užrašų failo slaptažodis</string>
+    <string name="notes_import_bad_password">Neteisingas slaptažodis</string>
 </resources>

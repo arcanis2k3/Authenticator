@@ -587,4 +587,27 @@
         <item quantity="one">%d elemento seleccionado</item>
         <item quantity="other">%d elementos seleccionados</item>
     </plurals>
+    <string name="action_notes">Notas</string>
+    <string name="title_activity_notes">Notas</string>
+    <string name="notes_empty_title">Aínda non hai notas</string>
+    <string name="notes_empty">Os contrasinais Wi-Fi e as notas curtas quedan neste cofre.</string>
+    <string name="add_note">Engadir nota</string>
+    <string name="edit_note">Editar nota</string>
+    <string name="note_title_hint">Título</string>
+    <string name="note_body_hint">Nota</string>
+    <string name="note_untitled">Sen título</string>
+    <string name="delete_note">Eliminar nota</string>
+    <string name="delete_note_confirm">Eliminar esta nota? Non se pode desfacer.</string>
+    <string name="note_copied">Nota copiada</string>
+    <string name="export_notes">Exportar notas</string>
+    <string name="import_notes">Importar notas</string>
+    <string name="notes_exported">Notas exportadas. O ficheiro non contén códigos.</string>
+    <string name="notes_export_plain">Notas exportadas sen cifrado, porque este cofre non ten contrasinal.</string>
+    <string name="notes_export_error">Non se puideron exportar as notas</string>
+    <string name="notes_imported">Engadíronse %1$d notas e actualizáronse %2$d. Os códigos non cambiaron.</string>
+    <string name="notes_import_error">Non se puideron importar as notas</string>
+    <string name="notes_import_wrong_file">Este ficheiro non é unha exportación de notas</string>
+    <string name="notes_unlock">Desbloquear notas</string>
+    <string name="notes_import_password">Contrasinal do ficheiro de notas</string>
+    <string name="notes_import_bad_password">Contrasinal incorrecto</string>
 </resources>

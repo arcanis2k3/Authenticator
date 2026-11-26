@@ -225,4 +225,27 @@
     <string name="pref_copy_next_near_expiry_title">ಮುಂದಿನ ಕೋಡ್ ನಕಲಿಸಿ</string>
     <string name="pref_copy_next_near_expiry_summary">ಕೋಡ್ 4 ಸೆಕೆಂಡಿಗಿಂತ ಕಡಿಮೆ ಅವಧಿಯಲ್ಲಿ ಮುಗಿದರೆ, ಮುಂದಿನದನ್ನು ನಕಲಿಸಲಾಗುತ್ತದೆ</string>
     <string name="code_copied_next">ಮುಂದಿನ ಕೋಡ್ ನಕಲಿಸಲಾಗಿದೆ. ಪ್ರಸ್ತುತ ಕೋಡ್ 4 ಸೆಕೆಂಡಿಗಿಂತ ಕಡಿಮೆ ಅವಧಿಯಲ್ಲಿ ಮುಗಿಯುತ್ತದೆ.</string>
+    <string name="action_notes">ಟಿಪ್ಪಣಿಗಳು</string>
+    <string name="title_activity_notes">ಟಿಪ್ಪಣಿಗಳು</string>
+    <string name="notes_empty_title">ಇನ್ನೂ ಟಿಪ್ಪಣಿಗಳಿಲ್ಲ</string>
+    <string name="notes_empty">Wi-Fi ಗುಪ್ತಪದಗಳು ಮತ್ತು ಚಿಕ್ಕ ಟಿಪ್ಪಣಿಗಳು ಈ ಕಪಾಟಿನಲ್ಲೇ ಉಳಿಯುತ್ತವೆ.</string>
+    <string name="add_note">ಟಿಪ್ಪಣಿ ಸೇರಿಸಿ</string>
+    <string name="edit_note">ಟಿಪ್ಪಣಿ ಸಂಪಾದಿಸಿ</string>
+    <string name="note_title_hint">ಶೀರ್ಷಿಕೆ</string>
+    <string name="note_body_hint">ಟಿಪ್ಪಣಿ</string>
+    <string name="note_untitled">ಶೀರ್ಷಿಕೆ ಇಲ್ಲ</string>
+    <string name="delete_note">ಟಿಪ್ಪಣಿ ಅಳಿಸಿ</string>
+    <string name="delete_note_confirm">ಈ ಟಿಪ್ಪಣಿ ಅಳಿಸಬೇಕೇ? ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗದು.</string>
+    <string name="note_copied">ಟಿಪ್ಪಣಿ ನಕಲಿಸಲಾಗಿದೆ</string>
+    <string name="export_notes">ಟಿಪ್ಪಣಿಗಳನ್ನು ರಫ್ತು ಮಾಡಿ</string>
+    <string name="import_notes">ಟಿಪ್ಪಣಿಗಳನ್ನು ಆಮದು ಮಾಡಿ</string>
+    <string name="notes_exported">ಟಿಪ್ಪಣಿಗಳನ್ನು ರಫ್ತು ಮಾಡಲಾಗಿದೆ. ಫೈಲಿನಲ್ಲಿ ಕೋಡ್‌ಗಳಿಲ್ಲ.</string>
+    <string name="notes_export_plain">ಈ ಕಪಾಟಿಗೆ ಗುಪ್ತಪದವಿಲ್ಲದ್ದರಿಂದ ಟಿಪ್ಪಣಿಗಳನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡದೆ ರಫ್ತು ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="notes_export_error">ಟಿಪ್ಪಣಿಗಳನ್ನು ರಫ್ತು ಮಾಡಲಾಗಲಿಲ್ಲ</string>
+    <string name="notes_imported">%1$d ಸೇರಿಸಲಾಗಿದೆ, %2$d ನವೀಕರಿಸಲಾಗಿದೆ. ಕೋಡ್‌ಗಳು ಬದಲಾಗಿಲ್ಲ.</string>
+    <string name="notes_import_error">ಟಿಪ್ಪಣಿಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಲಿಲ್ಲ</string>
+    <string name="notes_import_wrong_file">ಈ ಫೈಲ್ ಟಿಪ್ಪಣಿ ರಫ್ತು ಅಲ್ಲ</string>
+    <string name="notes_unlock">ಟಿಪ್ಪಣಿಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="notes_import_password">ಟಿಪ್ಪಣಿ ಫೈಲಿನ ಗುಪ್ತಪದ</string>
+    <string name="notes_import_bad_password">ತಪ್ಪು ಗುಪ್ತಪದ</string>
 </resources>

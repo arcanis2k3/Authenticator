@@ -578,4 +578,27 @@
         <item quantity="one">%d kohde valittu</item>
         <item quantity="other">%d kohdetta valittu</item>
     </plurals>
+    <string name="action_notes">Muistiinpanot</string>
+    <string name="title_activity_notes">Muistiinpanot</string>
+    <string name="notes_empty_title">Ei muistiinpanoja vielä</string>
+    <string name="notes_empty">Wi-Fi-salasanat ja lyhyet muistiinpanot pysyvät tässä holvissa.</string>
+    <string name="add_note">Lisää muistiinpano</string>
+    <string name="edit_note">Muokkaa muistiinpanoa</string>
+    <string name="note_title_hint">Otsikko</string>
+    <string name="note_body_hint">Muistiinpano</string>
+    <string name="note_untitled">Nimetön</string>
+    <string name="delete_note">Poista muistiinpano</string>
+    <string name="delete_note_confirm">Poistetaanko tämä muistiinpano? Tätä ei voi perua.</string>
+    <string name="note_copied">Muistiinpano kopioitu</string>
+    <string name="export_notes">Vie muistiinpanot</string>
+    <string name="import_notes">Tuo muistiinpanot</string>
+    <string name="notes_exported">Muistiinpanot viety. Tiedostossa ei ole koodeja.</string>
+    <string name="notes_export_plain">Muistiinpanot vietiin salaamatta, koska holvissa ei ole salasanaa.</string>
+    <string name="notes_export_error">Muistiinpanojen vienti epäonnistui</string>
+    <string name="notes_imported">%1$d muistiinpanoa lisättiin, %2$d päivitettiin. Koodeja ei muutettu.</string>
+    <string name="notes_import_error">Muistiinpanojen tuonti epäonnistui</string>
+    <string name="notes_import_wrong_file">Tämä tiedosto ei ole muistiinpanojen vienti</string>
+    <string name="notes_unlock">Avaa muistiinpanot</string>
+    <string name="notes_import_password">Muistiinpanotiedoston salasana</string>
+    <string name="notes_import_bad_password">Väärä salasana</string>
 </resources>

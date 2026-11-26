@@ -569,4 +569,27 @@
     <plurals name="dropdown_checkboxes_default_count">
         <item quantity="other">已选择 %d 个项目</item>
     </plurals>
+    <string name="action_notes">笔记</string>
+    <string name="title_activity_notes">笔记</string>
+    <string name="notes_empty_title">还没有笔记</string>
+    <string name="notes_empty">Wi-Fi 密码和短笔记留在这个保险库里。</string>
+    <string name="add_note">添加笔记</string>
+    <string name="edit_note">编辑笔记</string>
+    <string name="note_title_hint">标题</string>
+    <string name="note_body_hint">笔记</string>
+    <string name="note_untitled">无标题</string>
+    <string name="delete_note">删除笔记</string>
+    <string name="delete_note_confirm">删除这条笔记？此操作无法撤销。</string>
+    <string name="note_copied">已复制笔记</string>
+    <string name="export_notes">导出笔记</string>
+    <string name="import_notes">导入笔记</string>
+    <string name="notes_exported">笔记已导出。文件不含验证码。</string>
+    <string name="notes_export_plain">此保险库没有密码，因此笔记未加密导出。</string>
+    <string name="notes_export_error">无法导出笔记</string>
+    <string name="notes_imported">新增 %1$d 条，更新 %2$d 条。验证码未更改。</string>
+    <string name="notes_import_error">无法导入笔记</string>
+    <string name="notes_import_wrong_file">此文件不是笔记导出</string>
+    <string name="notes_unlock">解锁笔记</string>
+    <string name="notes_import_password">笔记文件的密码</string>
+    <string name="notes_import_bad_password">密码错误</string>
 </resources>

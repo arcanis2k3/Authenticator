@@ -38,6 +38,9 @@
             android:name=".ui.AboutActivity"
             android:label="@string/title_activity_about" />
         <activity
+            android:name=".ui.NotesActivity"
+            android:label="@string/title_activity_notes" />
+        <activity
             android:name=".ui.ImportEntriesActivity"
             android:label="@string/title_activity_import_entries" />
         <activity

@@ -631,4 +631,27 @@
         <item quantity="many">%d элементов выбрано</item>
         <item quantity="other">%d элементов выбрано</item>
     </plurals>
+    <string name="action_notes">Заметки</string>
+    <string name="title_activity_notes">Заметки</string>
+    <string name="notes_empty_title">Заметок пока нет</string>
+    <string name="notes_empty">Пароли Wi-Fi и короткие заметки остаются в этом хранилище.</string>
+    <string name="add_note">Добавить заметку</string>
+    <string name="edit_note">Изменить заметку</string>
+    <string name="note_title_hint">Название</string>
+    <string name="note_body_hint">Заметка</string>
+    <string name="note_untitled">Без названия</string>
+    <string name="delete_note">Удалить заметку</string>
+    <string name="delete_note_confirm">Удалить эту заметку? Это нельзя отменить.</string>
+    <string name="note_copied">Заметка скопирована</string>
+    <string name="export_notes">Экспорт заметок</string>
+    <string name="import_notes">Импорт заметок</string>
+    <string name="notes_exported">Заметки экспортированы. В файле нет кодов.</string>
+    <string name="notes_export_plain">Заметки экспортированы без шифрования, потому что у хранилища нет пароля.</string>
+    <string name="notes_export_error">Не удалось экспортировать заметки</string>
+    <string name="notes_imported">Добавлено заметок: %1$d, обновлено: %2$d. Коды не изменены.</string>
+    <string name="notes_import_error">Не удалось импортировать заметки</string>
+    <string name="notes_import_wrong_file">Этот файл не является экспортом заметок</string>
+    <string name="notes_unlock">Разблокировать заметки</string>
+    <string name="notes_import_password">Пароль файла заметок</string>
+    <string name="notes_import_bad_password">Неверный пароль</string>
 </resources>

@@ -1088,6 +1088,8 @@ public class MainActivity extends AegisActivity implements EntryListView.Listene
         int itemId = item.getItemId();
         if (itemId == R.id.action_settings) {
             startPreferencesActivity();
+        } else if (itemId == R.id.action_notes) {
+            startActivity(new Intent(this, NotesActivity.class));
         } else if (itemId == R.id.action_about) {
             Intent intent = new Intent(this, AboutActivity.class);
             startActivity(intent);

@@ -566,4 +566,27 @@
     <plurals name="dropdown_checkboxes_default_count">
         <item quantity="other">%d item terpilih</item>
     </plurals>
+    <string name="action_notes">Catatan</string>
+    <string name="title_activity_notes">Catatan</string>
+    <string name="notes_empty_title">Belum ada catatan</string>
+    <string name="notes_empty">Kata sandi Wi-Fi dan catatan singkat tetap di brankas ini.</string>
+    <string name="add_note">Tambah catatan</string>
+    <string name="edit_note">Edit catatan</string>
+    <string name="note_title_hint">Judul</string>
+    <string name="note_body_hint">Catatan</string>
+    <string name="note_untitled">Tanpa judul</string>
+    <string name="delete_note">Hapus catatan</string>
+    <string name="delete_note_confirm">Hapus catatan ini? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="note_copied">Catatan disalin</string>
+    <string name="export_notes">Ekspor catatan</string>
+    <string name="import_notes">Impor catatan</string>
+    <string name="notes_exported">Catatan diekspor. Berkas tidak berisi kode.</string>
+    <string name="notes_export_plain">Catatan diekspor tanpa enkripsi karena brankas ini tidak memiliki kata sandi.</string>
+    <string name="notes_export_error">Tidak dapat mengekspor catatan</string>
+    <string name="notes_imported">%1$d catatan ditambahkan, %2$d diperbarui. Kode tidak diubah.</string>
+    <string name="notes_import_error">Tidak dapat mengimpor catatan</string>
+    <string name="notes_import_wrong_file">Berkas ini bukan ekspor catatan</string>
+    <string name="notes_unlock">Buka kunci catatan</string>
+    <string name="notes_import_password">Kata sandi berkas catatan</string>
+    <string name="notes_import_bad_password">Kata sandi salah</string>
 </resources>

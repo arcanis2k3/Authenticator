@@ -590,4 +590,27 @@
         <item quantity="one">%d élément sélectionné</item>
         <item quantity="other">%d éléments sélectionnés</item>
     </plurals>
+    <string name="action_notes">Notes</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="notes_empty_title">Aucune note</string>
+    <string name="notes_empty">Les mots de passe Wi-Fi et les notes courtes restent dans ce coffre.</string>
+    <string name="add_note">Ajouter une note</string>
+    <string name="edit_note">Modifier la note</string>
+    <string name="note_title_hint">Titre</string>
+    <string name="note_body_hint">Note</string>
+    <string name="note_untitled">Sans titre</string>
+    <string name="delete_note">Supprimer la note</string>
+    <string name="delete_note_confirm">Supprimer cette note ? Cette action est irréversible.</string>
+    <string name="note_copied">Note copiée</string>
+    <string name="export_notes">Exporter les notes</string>
+    <string name="import_notes">Importer les notes</string>
+    <string name="notes_exported">Notes exportées. Le fichier ne contient aucun code.</string>
+    <string name="notes_export_plain">Notes exportées sans chiffrement, car ce coffre n\'a pas de mot de passe.</string>
+    <string name="notes_export_error">Impossible d\'exporter les notes</string>
+    <string name="notes_imported">%1$d notes ajoutées, %2$d mises à jour. Les codes n\'ont pas changé.</string>
+    <string name="notes_import_error">Impossible d\'importer les notes</string>
+    <string name="notes_import_wrong_file">Ce fichier n\'est pas un export de notes</string>
+    <string name="notes_unlock">Déverrouiller les notes</string>
+    <string name="notes_import_password">Mot de passe du fichier de notes</string>
+    <string name="notes_import_bad_password">Mauvais mot de passe</string>
 </resources>

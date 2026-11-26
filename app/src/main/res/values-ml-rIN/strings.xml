@@ -479,4 +479,27 @@
         <item quantity="one">%d തിരഞ്ഞെടുത്ത ഇനം</item>
         <item quantity="other">%d തിരഞ്ഞെടുത്ത ഇനങ്ങൾ</item>
     </plurals>
+    <string name="action_notes">കുറിപ്പുകൾ</string>
+    <string name="title_activity_notes">കുറിപ്പുകൾ</string>
+    <string name="notes_empty_title">ഇതുവരെ കുറിപ്പുകളില്ല</string>
+    <string name="notes_empty">Wi-Fi പാസ്‌വേഡുകളും ചെറിയ കുറിപ്പുകളും ഈ നിലവറയിൽ തന്നെ നിൽക്കും.</string>
+    <string name="add_note">കുറിപ്പ് ചേർക്കുക</string>
+    <string name="edit_note">കുറിപ്പ് തിരുത്തുക</string>
+    <string name="note_title_hint">ശീർഷകം</string>
+    <string name="note_body_hint">കുറിപ്പ്</string>
+    <string name="note_untitled">തലക്കെട്ടില്ല</string>
+    <string name="delete_note">കുറിപ്പ് ഇല്ലാതാക്കുക</string>
+    <string name="delete_note_confirm">ഈ കുറിപ്പ് ഇല്ലാതാക്കണോ? പഴയപടിയാക്കാനാവില്ല.</string>
+    <string name="note_copied">കുറിപ്പ് പകർത്തി</string>
+    <string name="export_notes">കുറിപ്പുകൾ കയറ്റുമതി ചെയ്യുക</string>
+    <string name="import_notes">കുറിപ്പുകൾ ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="notes_exported">കുറിപ്പുകൾ കയറ്റുമതി ചെയ്തു. ഫയലിൽ കോഡുകളില്ല.</string>
+    <string name="notes_export_plain">ഈ നിലവറയ്ക്ക് പാസ്‌വേഡ് ഇല്ലാത്തതിനാൽ കുറിപ്പുകൾ എൻക്രിപ്റ്റ് ചെയ്യാതെ കയറ്റുമതി ചെയ്തു.</string>
+    <string name="notes_export_error">കുറിപ്പുകൾ കയറ്റുമതി ചെയ്യാനായില്ല</string>
+    <string name="notes_imported">%1$d ചേർത്തു, %2$d പുതുക്കി. കോഡുകൾ മാറിയില്ല.</string>
+    <string name="notes_import_error">കുറിപ്പുകൾ ഇറക്കുമതി ചെയ്യാനായില്ല</string>
+    <string name="notes_import_wrong_file">ഈ ഫയൽ കുറിപ്പ് കയറ്റുമതിയല്ല</string>
+    <string name="notes_unlock">കുറിപ്പുകൾ തുറക്കുക</string>
+    <string name="notes_import_password">കുറിപ്പ് ഫയലിന്റെ പാസ്‌വേഡ്</string>
+    <string name="notes_import_bad_password">തെറ്റായ പാസ്‌വേഡ്</string>
 </resources>
