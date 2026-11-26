@@ -222,7 +222,7 @@
         <item quantity="one">%d ಐಟಂ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</item>
         <item quantity="other">%d ಐಟಂಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</item>
     </plurals>
-    <string name="pref_copy_next_near_expiry_title">ಅವಧಿ ಮುಗಿಯುವ ಕೋಡ್‌ಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಿ</string>
+    <string name="pref_copy_next_near_expiry_title">ಮುಂದಿನ ಕೋಡ್ ನಕಲಿಸಿ</string>
     <string name="pref_copy_next_near_expiry_summary">ಕೋಡ್ 4 ಸೆಕೆಂಡಿಗಿಂತ ಕಡಿಮೆ ಅವಧಿಯಲ್ಲಿ ಮುಗಿದರೆ, ಮುಂದಿನದನ್ನು ನಕಲಿಸಲಾಗುತ್ತದೆ</string>
     <string name="code_copied_next">ಮುಂದಿನ ಕೋಡ್ ನಕಲಿಸಲಾಗಿದೆ. ಪ್ರಸ್ತುತ ಕೋಡ್ 4 ಸೆಕೆಂಡಿಗಿಂತ ಕಡಿಮೆ ಅವಧಿಯಲ್ಲಿ ಮುಗಿಯುತ್ತದೆ.</string>
 </resources>

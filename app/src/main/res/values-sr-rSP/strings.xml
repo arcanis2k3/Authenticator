@@ -395,7 +395,7 @@
     <string name="pref_groups_multiselect_summary">Омогућите избор више група истовремено</string>
     <string name="pref_minimize_on_copy_title">Минимизирај приликом копирања</string>
     <string name="pref_minimize_on_copy_summary">Минимизирајте апликацију након копирања токена</string>
-    <string name="pref_copy_next_near_expiry_title">Прескочи кодове који истичу</string>
+    <string name="pref_copy_next_near_expiry_title">Копирај следећи кôд</string>
     <string name="pref_copy_next_near_expiry_summary">Ако код истиче за мање од 4 секунде, копира се следећи</string>
     <string name="code_copied_next">Следећи код је копиран. Тренутни истиче за мање од 4 секунде.</string>
     <string name="pref_copy_behavior_title">Копирај токене у привремену меморију</string>

@@ -19,12 +19,6 @@
         android:title="@string/pref_minimize_on_copy_title"
         android:summary="@string/pref_minimize_on_copy_summary"
         app:iconSpaceReserved="false"/>
-    <androidx.preference.SwitchPreferenceCompat
-        android:defaultValue="true"
-        android:key="pref_copy_next_near_expiry"
-        android:title="@string/pref_copy_next_near_expiry_title"
-        android:summary="@string/pref_copy_next_near_expiry_summary"
-        app:iconSpaceReserved="false"/>
 
     <Preference
         android:defaultValue="false"

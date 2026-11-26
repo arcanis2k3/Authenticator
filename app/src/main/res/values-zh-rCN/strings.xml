@@ -375,7 +375,7 @@
     <string name="pref_groups_multiselect_summary">允许同时选中多个分组</string>
     <string name="pref_minimize_on_copy_title">复制时最小化</string>
     <string name="pref_minimize_on_copy_summary">复制令牌后最小化应用</string>
-    <string name="pref_copy_next_near_expiry_title">跳过即将过期的验证码</string>
+    <string name="pref_copy_next_near_expiry_title">复制下一组代码</string>
     <string name="pref_copy_next_near_expiry_summary">如果验证码将在 4 秒内过期，则复制下一个</string>
     <string name="code_copied_next">已复制下一个验证码。当前验证码将在 4 秒内过期。</string>
     <string name="pref_copy_behavior_title">复制令牌到剪贴板</string>

@@ -50,6 +50,13 @@
 
         <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
+            android:key="pref_copy_next_near_expiry"
+            android:title="@string/pref_copy_next_near_expiry_title"
+            android:summary="@string/pref_copy_next_near_expiry_summary"
+            app:iconSpaceReserved="false"/>
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
             android:key="pref_expiration_state"
             android:title="@string/pref_expiration_state_title"
             android:summary="@string/pref_expiration_state_summary"

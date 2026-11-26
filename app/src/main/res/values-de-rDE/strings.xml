@@ -385,7 +385,7 @@
     <string name="pref_groups_multiselect_summary">Das Auswählen mehrerer Gruppen auf einmal ermöglichen</string>
     <string name="pref_minimize_on_copy_title">Beim Kopieren minimieren</string>
     <string name="pref_minimize_on_copy_summary">App nach dem Kopieren eines Tokens minimieren</string>
-    <string name="pref_copy_next_near_expiry_title">Ablaufende Codes überspringen</string>
+    <string name="pref_copy_next_near_expiry_title">Nächsten Code kopieren</string>
     <string name="pref_copy_next_near_expiry_summary">Wenn ein Code in unter 4 Sekunden abläuft, wird der nächste kopiert</string>
     <string name="code_copied_next">Nächster Code kopiert. Der aktuelle läuft in unter 4 Sekunden ab.</string>
     <string name="pref_copy_behavior_title">Token in die Zwischenablage kopieren</string>

@@ -385,7 +385,7 @@
     <string name="pref_groups_multiselect_summary">Selectie van meerdere groepen tegelijkertijd toestaan</string>
     <string name="pref_minimize_on_copy_title">Na kopiëren minimaliseren</string>
     <string name="pref_minimize_on_copy_summary">Na kopiëren van een code de app minimaliseren</string>
-    <string name="pref_copy_next_near_expiry_title">Aflopende codes overslaan</string>
+    <string name="pref_copy_next_near_expiry_title">Volgende code kopiëren</string>
     <string name="pref_copy_next_near_expiry_summary">Als een code binnen 4 seconden verloopt, wordt de volgende gekopieerd</string>
     <string name="code_copied_next">Volgende code gekopieerd. De huidige verloopt binnen 4 seconden.</string>
     <string name="pref_copy_behavior_title">Codes naar het klembord kopiëren</string>

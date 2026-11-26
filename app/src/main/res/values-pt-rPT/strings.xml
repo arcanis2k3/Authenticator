@@ -384,7 +384,7 @@
     <string name="pref_groups_multiselect_summary">Permitir a seleção de vários grupos ao mesmo tempo</string>
     <string name="pref_minimize_on_copy_title">Minimizar ao copiar</string>
     <string name="pref_minimize_on_copy_summary">Após copiar um token, minimizar a aplicação </string>
-    <string name="pref_copy_next_near_expiry_title">Ignorar códigos prestes a expirar</string>
+    <string name="pref_copy_next_near_expiry_title">Copiar próximo código</string>
     <string name="pref_copy_next_near_expiry_summary">Se um código expirar em menos de 4 segundos, copia-se o seguinte</string>
     <string name="code_copied_next">Código seguinte copiado. O atual expira em menos de 4 segundos.</string>
     <string name="pref_copy_behavior_title">Copiar tokens para a área de transferência</string>

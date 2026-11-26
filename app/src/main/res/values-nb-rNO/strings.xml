@@ -357,7 +357,7 @@
     <string name="pref_highlight_entry_summary">Gjør det lettere å skille mellom koder ved å fremheve dem ved trykk</string>
     <string name="pref_minimize_on_copy_title">Minimer ved kopi</string>
     <string name="pref_minimize_on_copy_summary">Minimer appen etter å ha kopiert en kode</string>
-    <string name="pref_copy_next_near_expiry_title">Hopp over koder som utløper</string>
+    <string name="pref_copy_next_near_expiry_title">Kopier neste kode</string>
     <string name="pref_copy_next_near_expiry_summary">Hvis en kode utløper om under 4 sekunder, kopieres den neste</string>
     <string name="code_copied_next">Neste kode er kopiert. Den gjeldende utløper om under 4 sekunder.</string>
     <string name="pref_copy_behavior_title">Kopier koder til utklippstavlen</string>

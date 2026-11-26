@@ -376,7 +376,7 @@
     <string name="pref_groups_multiselect_title">בחירה מרובה של קבוצות</string>
     <string name="pref_minimize_on_copy_title">מזעור בהעתקה</string>
     <string name="pref_minimize_on_copy_summary">מזעור האפליקציה לאחר העתקת אסימון</string>
-    <string name="pref_copy_next_near_expiry_title">דילוג על קודים שעומדים לפוג</string>
+    <string name="pref_copy_next_near_expiry_title">העתקת הקוד הבא</string>
     <string name="pref_copy_next_near_expiry_summary">אם קוד פג בעוד פחות מ-4 שניות, הקוד הבא מועתק</string>
     <string name="code_copied_next">הקוד הבא הועתק. הקוד הנוכחי פג בעוד פחות מ-4 שניות.</string>
     <string name="pref_copy_behavior_title">העתקת האסימונים ללוח הגזירים</string>

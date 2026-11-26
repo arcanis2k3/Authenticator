@@ -384,7 +384,7 @@
     <string name="pref_groups_multiselect_summary">Tek seferde çoklu grup seçimine izin ver</string>
     <string name="pref_minimize_on_copy_title">Kopyalarken simge durumuna küçült</string>
     <string name="pref_minimize_on_copy_summary">Bir anahtarı kopyaladıktan sonra uygulamayı simge durumuna küçültün</string>
-    <string name="pref_copy_next_near_expiry_title">Süresi dolmak üzere olan kodları atla</string>
+    <string name="pref_copy_next_near_expiry_title">Sonraki kodu kopyala</string>
     <string name="pref_copy_next_near_expiry_summary">Bir kodun süresi 4 saniyeden kısa sürede dolarsa sonrakisi kopyalanır</string>
     <string name="code_copied_next">Sonraki kod kopyalandı. Geçerli kodun süresi 4 saniyeden kısa sürede dolacak.</string>
     <string name="pref_copy_behavior_title">Erişim anahtarlarını panoya kopyala</string>

@@ -330,7 +330,7 @@
     <string name="pref_highlight_entry_summary">Fai que los pases s\'estremen meyor al rescamplalos temporalmente cuando toques nellos</string>
     <string name="pref_minimize_on_copy_title">Minimizar al copiar</string>
     <string name="pref_minimize_on_copy_summary">Minimiza l\'aplicación dempués de copiar un pase</string>
-    <string name="pref_copy_next_near_expiry_title">Saltar códigos a piques de caducar</string>
+    <string name="pref_copy_next_near_expiry_title">Copiar el códigu siguiente</string>
     <string name="pref_copy_next_near_expiry_summary">Si un códigu caduca en menos de 4 segundos, cópiase\'l siguiente</string>
     <string name="code_copied_next">Copióse\'l códigu siguiente. L\'actual caduca en menos de 4 segundos.</string>
     <string name="pref_search_behavior_title">Comportamientu de la busca</string>

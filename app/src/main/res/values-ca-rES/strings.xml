@@ -385,7 +385,7 @@
     <string name="pref_groups_multiselect_summary">Permet la selecció de múltiples grups al mateix temps</string>
     <string name="pref_minimize_on_copy_title">Minimitzar al copiar</string>
     <string name="pref_minimize_on_copy_summary">Minimitzar l\'aplicació després de copiar una fitxa</string>
-    <string name="pref_copy_next_near_expiry_title">Omet els codis a punt de caducar</string>
+    <string name="pref_copy_next_near_expiry_title">Copiar el proper codi</string>
     <string name="pref_copy_next_near_expiry_summary">Si un codi caduca en menys de 4 segons, es copia el següent</string>
     <string name="code_copied_next">S\'ha copiat el codi següent. L\'actual caduca en menys de 4 segons.</string>
     <string name="pref_copy_behavior_title">Copia les fitxes al porta-retalls</string>

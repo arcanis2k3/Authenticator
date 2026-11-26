@@ -291,7 +291,7 @@
     <string name="pref_highlight_entry_summary">टैप करने पर टोकनों को एक दूसरे से अलग उजागर करने के लिए उन्हें अस्थायी रूप से हाईलाइट करें</string>
     <string name="pref_minimize_on_copy_title">कॉपी करने पर मिनिमाइज करें</string>
     <string name="pref_minimize_on_copy_summary">ओटीपी कॉपी करने के बाद ऐप को मिनिमाइज करें</string>
-    <string name="pref_copy_next_near_expiry_title">समाप्त होने वाले कोड छोड़ें</string>
+    <string name="pref_copy_next_near_expiry_title">अगला कोड कॉपी करें</string>
     <string name="pref_copy_next_near_expiry_summary">यदि कोई कोड 4 सेकंड से कम में समाप्त होता है, तो अगला कोड कॉपी होता है</string>
     <string name="code_copied_next">अगला कोड कॉपी हो गया. वर्तमान कोड 4 सेकंड से कम में समाप्त होगा.</string>
     <string name="pref_pause_entry_title">टैप किए जाने पर टोकन फ़्रीज़ करें</string>

@@ -309,7 +309,7 @@
     <string name="importer_help_direct">وارد کردن محتویات مستقیما از %s. برای انجام این عملیات باید اپلیکشن بر روی دستگاه نصب شده باشد و دسترسی روت به آگیس اعطا شده باشد.</string>
     <string name="groups">گروه‌ها</string>
     <string name="pref_focus_search_summary">پس از باز کردن برنامه، بی‌درنگ به بخش جستجو بروید.</string>
-    <string name="pref_copy_next_near_expiry_title">رد کردن کدهای در حال انقضا</string>
+    <string name="pref_copy_next_near_expiry_title">کپی کد بعدی</string>
     <string name="pref_copy_next_near_expiry_summary">اگر کد در کمتر از ۴ ثانیه منقضی شود، کد بعدی کپی می‌شود</string>
     <string name="code_copied_next">کد بعدی کپی شد. کد فعلی در کمتر از ۴ ثانیه منقضی می‌شود.</string>
 </resources>

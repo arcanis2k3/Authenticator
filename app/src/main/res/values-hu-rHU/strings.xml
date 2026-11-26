@@ -384,7 +384,7 @@
     <string name="pref_groups_multiselect_summary">Több csoport egyidejű kiválasztásának engedélyezése</string>
     <string name="pref_minimize_on_copy_title">Minimalizálás másoláskor</string>
     <string name="pref_minimize_on_copy_summary">Az alkalmazás minimalizálása a token másolása után</string>
-    <string name="pref_copy_next_near_expiry_title">Lejáró kódok kihagyása</string>
+    <string name="pref_copy_next_near_expiry_title">Következő kód másolása</string>
     <string name="pref_copy_next_near_expiry_summary">Ha egy kód 4 másodpercen belül lejár, a következő másolódik</string>
     <string name="code_copied_next">A következő kód másolva. A jelenlegi 4 másodpercen belül lejár.</string>
     <string name="pref_copy_behavior_title">Tokenek másolása a vágólapra</string>

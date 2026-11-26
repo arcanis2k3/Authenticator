@@ -425,7 +425,7 @@
     <string name="pref_groups_multiselect_summary">اسمح باختيار مجموعات متعددة في نفس الوقت</string>
     <string name="pref_minimize_on_copy_title">تصغير عند النسخ</string>
     <string name="pref_minimize_on_copy_summary">تصغير التطبيق بعد نسخ رمز</string>
-    <string name="pref_copy_next_near_expiry_title">تخطي الرموز التي توشك على الانتهاء</string>
+    <string name="pref_copy_next_near_expiry_title">انسخ الرمز التالي</string>
     <string name="pref_copy_next_near_expiry_summary">إذا تبقى أقل من 4 ثوانٍ على انتهاء الرمز، يُنسخ الرمز التالي</string>
     <string name="code_copied_next">تم نسخ الرمز التالي. ينتهي الرمز الحالي خلال أقل من 4 ثوانٍ.</string>
     <string name="pref_copy_behavior_title">انسخ الرموز إلى الحافظة</string>
