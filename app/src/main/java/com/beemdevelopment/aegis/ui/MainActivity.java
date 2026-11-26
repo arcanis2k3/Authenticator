@@ -56,6 +56,7 @@ import com.beemdevelopment.aegis.icons.IconType;
 import com.beemdevelopment.aegis.otp.GoogleAuthInfo;
 import com.beemdevelopment.aegis.otp.GoogleAuthInfoException;
 import com.beemdevelopment.aegis.otp.OtpInfoException;
+import com.beemdevelopment.aegis.otp.TotpInfo;
 import com.beemdevelopment.aegis.ui.dialogs.Dialogs;
 import com.beemdevelopment.aegis.ui.fragments.preferences.BackupsPreferencesFragment;
 import com.beemdevelopment.aegis.ui.fragments.preferences.PreferencesFragment;
@@ -1376,8 +1377,20 @@ public class MainActivity extends AegisActivity implements EntryListView.Listene
     @SuppressLint("InlinedApi")
     private void copyEntryCode(VaultEntry entry) {
         String otp;
+        boolean copiedNext = false;
         try {
-            otp = entry.getInfo().getOtp();
+            if (_prefs.isCopyNextCodeEnabled() && entry.getInfo() instanceof TotpInfo) {
+                TotpInfo info = (TotpInfo) entry.getInfo();
+                long remaining = info.getMillisTillNextRotation();
+                if (remaining < 4000) {
+                    otp = info.getOtp((System.currentTimeMillis() / 1000) + info.getPeriod());
+                    copiedNext = true;
+                } else {
+                    otp = info.getOtp();
+                }
+            } else {
+                otp = entry.getInfo().getOtp();
+            }
         } catch (OtpInfoException e) {
             return;
         }
@@ -1390,6 +1403,9 @@ public class MainActivity extends AegisActivity implements EntryListView.Listene
             clip.getDescription().setExtras(extras);
         }
         clipboard.setPrimaryClip(clip);
+        if (copiedNext) {
+            Toast.makeText(this, R.string.code_copied_next, Toast.LENGTH_SHORT).show();
+        }
         if (_prefs.isMinimizeOnCopyEnabled()) {
             moveTaskToBack(true);
         }

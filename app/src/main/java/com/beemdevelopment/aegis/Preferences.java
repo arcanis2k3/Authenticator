@@ -584,6 +584,10 @@ public class Preferences {
         return _prefs.getBoolean("pref_minimize_on_copy", false);
     }
 
+    public boolean isCopyNextCodeEnabled() {
+        return _prefs.getBoolean("pref_copy_next_near_expiry", true);
+    }
+
     public void setGroupFilter(Set<UUID> groupFilter) {
         JSONArray json = new JSONArray(groupFilter);
         _prefs.edit().putString("pref_group_filter_uuids", json.toString()).apply();
