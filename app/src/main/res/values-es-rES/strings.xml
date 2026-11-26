@@ -385,6 +385,9 @@
     <string name="pref_groups_multiselect_summary">Permite seleccionar varios grupos a la vez</string>
     <string name="pref_minimize_on_copy_title">Minimizar al copiar</string>
     <string name="pref_minimize_on_copy_summary">Minimiza la aplicación tras copiar claves</string>
+    <string name="pref_copy_next_near_expiry_title">Omitir códigos a punto de caducar</string>
+    <string name="pref_copy_next_near_expiry_summary">Si un código caduca en menos de 4 segundos, se copia el siguiente</string>
+    <string name="code_copied_next">Se copió el código siguiente. El actual caduca en menos de 4 segundos.</string>
     <string name="pref_copy_behavior_title">Copiar claves en el portapapeles</string>
     <string name="pref_search_behavior_title">Comportamiento de búsqueda</string>
     <string name="pref_pause_entry_title">Congelar claves al tocarlas</string>

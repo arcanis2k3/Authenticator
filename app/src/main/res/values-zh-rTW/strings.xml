@@ -375,6 +375,9 @@
     <string name="pref_groups_multiselect_summary">允許同時選擇多個群組</string>
     <string name="pref_minimize_on_copy_title">複製後最小化</string>
     <string name="pref_minimize_on_copy_summary">複製代碼之後將應用程式最小化</string>
+    <string name="pref_copy_next_near_expiry_title">略過即將到期的驗證碼</string>
+    <string name="pref_copy_next_near_expiry_summary">如果驗證碼將在 4 秒內到期，則複製下一個</string>
+    <string name="code_copied_next">已複製下一個驗證碼。目前的驗證碼將在 4 秒內到期。</string>
     <string name="pref_copy_behavior_title">複製令牌至剪貼簿</string>
     <string name="pref_search_behavior_title">搜尋行為</string>
     <string name="pref_pause_entry_title">被觸碰時凍結驗證碼</string>

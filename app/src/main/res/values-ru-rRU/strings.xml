@@ -405,6 +405,9 @@
     <string name="pref_groups_multiselect_summary">Разрешить одновременный выбор нескольких групп</string>
     <string name="pref_minimize_on_copy_title">Сворачивать при копировании</string>
     <string name="pref_minimize_on_copy_summary">Сворачивать приложение после копирования ключа</string>
+    <string name="pref_copy_next_near_expiry_title">Пропускать истекающие коды</string>
+    <string name="pref_copy_next_near_expiry_summary">Если код истекает менее чем через 4 секунды, копируется следующий</string>
+    <string name="code_copied_next">Следующий код скопирован. Текущий истекает менее чем через 4 секунды.</string>
     <string name="pref_copy_behavior_title">Копировать ключи в буфер обмена</string>
     <string name="pref_search_behavior_title">Поведение поиска</string>
     <string name="pref_pause_entry_title">Замораживать ключи при нажатии</string>

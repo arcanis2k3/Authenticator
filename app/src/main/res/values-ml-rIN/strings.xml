@@ -306,6 +306,9 @@
     <string name="pref_highlight_entry_summary">ടാപ്പുചെയ്യുമ്പോൾ താൽക്കാലികമായി ഹൈലൈറ്റ് ചെയ്തുകൊണ്ട് പരസ്പരം വേർതിരിച്ചറിയാൻ ടോക്കണുകൾ എളുപ്പമാക്കുക</string>
     <string name="pref_minimize_on_copy_title">പകർപ്പിൽ ചെറുതാക്കുക</string>
     <string name="pref_minimize_on_copy_summary">ഒരു ടോക്കൺ പകർത്തിയ ശേഷം ആപ്പ് ചെറുതാക്കുക</string>
+    <string name="pref_copy_next_near_expiry_title">കാലഹരണപ്പെടാൻ പോകുന്ന കോഡുകൾ ഒഴിവാക്കുക</string>
+    <string name="pref_copy_next_near_expiry_summary">ഒരു കോഡ് 4 സെക്കൻഡിൽ താഴെയായി കാലഹരണപ്പെടുകയാണെങ്കിൽ അടുത്തത് പകർത്തും</string>
+    <string name="code_copied_next">അടുത്ത കോഡ് പകർത്തി. നിലവിലുള്ളത് 4 സെക്കൻഡിൽ താഴെയായി കാലഹരണപ്പെടും.</string>
     <string name="pref_copy_behavior_title">ക്ലിപ്പ്ബോർഡിലേക്ക് ടോക്കണുകൾ പകർത്തുക</string>
     <string name="pref_pause_entry_title">ടാപ്പുചെയ്യുമ്പോൾ ടോക്കണുകൾ ഫ്രീസ് ചെയ്യുക</string>
     <string name="pref_pause_entry_summary">ടോക്കണുകൾ ടാപ്പുചെയ്യുന്നതിലൂടെ അവയുടെ യാന്ത്രിക പുതുക്കൽ താൽക്കാലികമായി നിർത്തുക. ടോക്കണുകൾ ഫോക്കസ് ചെയ്തിരിക്കുന്നിടത്തോളം കാലം അവ അപ്‌ഡേറ്റ് ചെയ്യില്ല. \"ടാപ്പുചെയ്യുമ്പോൾ ടോക്കണുകൾ ഹൈലൈറ്റ് ചെയ്യുക\" അല്ലെങ്കിൽ \"വെളിപ്പെടുത്താൻ ടാപ്പ് ചെയ്യുക\" ആവശ്യമാണ്.</string>

@@ -330,6 +330,9 @@
     <string name="pref_highlight_entry_summary">Fai que los pases s\'estremen meyor al rescamplalos temporalmente cuando toques nellos</string>
     <string name="pref_minimize_on_copy_title">Minimizar al copiar</string>
     <string name="pref_minimize_on_copy_summary">Minimiza l\'aplicación dempués de copiar un pase</string>
+    <string name="pref_copy_next_near_expiry_title">Saltar códigos a piques de caducar</string>
+    <string name="pref_copy_next_near_expiry_summary">Si un códigu caduca en menos de 4 segundos, cópiase\'l siguiente</string>
+    <string name="code_copied_next">Copióse\'l códigu siguiente. L\'actual caduca en menos de 4 segundos.</string>
     <string name="pref_search_behavior_title">Comportamientu de la busca</string>
     <string name="pref_pause_entry_title">Paralizar los pases al tocalos</string>
     <string name="pref_pause_entry_summary">Posa l\'anovamientu automáticu de los pases al tocar nellos y, polo tanto, nun s\'anueven mentanto tengan el focu. Esta opción rique l\'activación de les opciones «Rescamplar los pases al tocalos» o «Tocar pa desvelar».</string>

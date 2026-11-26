@@ -289,6 +289,9 @@
     <string name="pref_highlight_entry_summary">Bakstelėjus ant prieigos raktų, laikinai juos paryškinti ir padaryti taip, kad juos būtų lengviau atskirti</string>
     <string name="pref_minimize_on_copy_title">Nukopijavus suskleisti</string>
     <string name="pref_minimize_on_copy_summary">Suskleisti programėlę po to, kai priegos raktas buvo nukopijuotas</string>
+    <string name="pref_copy_next_near_expiry_title">Praleisti baigiančius galioti kodus</string>
+    <string name="pref_copy_next_near_expiry_summary">Jei kodas baigia galioti greičiau nei per 4 sekundes, kopijuojamas kitas</string>
+    <string name="code_copied_next">Kitas kodas nukopijuotas. Dabartinis baigia galioti greičiau nei per 4 sekundes.</string>
     <string name="pref_copy_behavior_title">Kopijuoti prieigos raktus į iškarpinę</string>
     <string name="pref_search_behavior_title">Paieškos elgsena</string>
     <string name="pin_keyboard_description">Norėdami įjungti PIN kodo klaviatūrą, įveskite slaptažodį. Turėkite omenyje, jog tai veikia tik tuo atveju, jei jūsų slaptažodis yra sudarytas tik iš skaitmenų</string>

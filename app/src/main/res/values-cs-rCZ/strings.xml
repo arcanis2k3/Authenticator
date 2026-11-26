@@ -405,6 +405,9 @@
     <string name="pref_groups_multiselect_summary">Povolit současný výběr více skupin</string>
     <string name="pref_minimize_on_copy_title">Minimalizovat při kopírování</string>
     <string name="pref_minimize_on_copy_summary">Minimalizovat aplikaci po zkopírování tokenu</string>
+    <string name="pref_copy_next_near_expiry_title">Přeskakovat končící kódy</string>
+    <string name="pref_copy_next_near_expiry_summary">Pokud kód vyprší za méně než 4 sekundy, zkopíruje se další</string>
+    <string name="code_copied_next">Další kód byl zkopírován. Aktuální vyprší za méně než 4 sekundy.</string>
     <string name="pref_copy_behavior_title">Zkopírovat tokeny do schránky</string>
     <string name="pref_search_behavior_title">Chování vyhledávání</string>
     <string name="pref_pause_entry_title">Zmrazit tokeny po klepnutí</string>

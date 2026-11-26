@@ -405,6 +405,9 @@
     <string name="pref_groups_multiselect_summary">Дозволити вибір декількох груп одночасно</string>
     <string name="pref_minimize_on_copy_title">Згортати при копіюванні</string>
     <string name="pref_minimize_on_copy_summary">Згортати додаток після копіювання токена</string>
+    <string name="pref_copy_next_near_expiry_title">Пропускати коди, що закінчуються</string>
+    <string name="pref_copy_next_near_expiry_summary">Якщо код закінчується менш ніж за 4 секунди, копіюється наступний</string>
+    <string name="code_copied_next">Наступний код скопійовано. Поточний закінчується менш ніж за 4 секунди.</string>
     <string name="pref_copy_behavior_title">Скопіювати токени в буфер обміну</string>
     <string name="pref_search_behavior_title">Поведінка пошуку</string>
     <string name="pref_pause_entry_title">Заморожувати токени при натисканні</string>

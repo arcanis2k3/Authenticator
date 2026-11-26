@@ -385,6 +385,9 @@
     <string name="pref_groups_multiselect_summary">Võimalda mitme grupi korraga valimist</string>
     <string name="pref_minimize_on_copy_title">Kopeerimisel peida rakendus</string>
     <string name="pref_minimize_on_copy_summary">Peale kinnituskoodi kopeerimist minimeeri rakendus</string>
+    <string name="pref_copy_next_near_expiry_title">Jäta aeguvad koodid vahele</string>
+    <string name="pref_copy_next_near_expiry_summary">Kui kood aegub vähem kui 4 sekundi pärast, kopeeritakse järgmine</string>
+    <string name="code_copied_next">Järgmine kood on kopeeritud. Praegune aegub vähem kui 4 sekundi pärast.</string>
     <string name="pref_copy_behavior_title">Kopeeri kinnituskoodid lõikelauale</string>
     <string name="pref_search_behavior_title">Otsingu toimimine</string>
     <string name="pref_pause_entry_title">Peale puudutamist peata kinnituskoodide muutumine</string>

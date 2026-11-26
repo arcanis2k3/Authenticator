@@ -376,6 +376,9 @@
     <string name="pref_groups_multiselect_summary">한 번에 여러 개의 그룹을 선택할 수 있게 합니다</string>
     <string name="pref_minimize_on_copy_title">복사할 때 최소화하기</string>
     <string name="pref_minimize_on_copy_summary">토큰을 복사한 후, 앱을 최소화합니다</string>
+    <string name="pref_copy_next_near_expiry_title">곧 만료되는 코드 건너뛰기</string>
+    <string name="pref_copy_next_near_expiry_summary">코드가 4초 이내에 만료되면 다음 코드를 복사합니다</string>
+    <string name="code_copied_next">다음 코드를 복사했습니다. 현재 코드는 4초 이내에 만료됩니다.</string>
     <string name="pref_copy_behavior_title">클립보드에 토큰 복사하기</string>
     <string name="pref_search_behavior_title">검색 행동</string>
     <string name="pref_pause_entry_title">터치되었을 때 토큰 얼리기</string>

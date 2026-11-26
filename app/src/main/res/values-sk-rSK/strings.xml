@@ -350,6 +350,9 @@
     <string name="pref_groups_multiselect_summary">Povoliť výber viacerých skupín naraz</string>
     <string name="pref_minimize_on_copy_title">Minimalizovať pri kopírovaní</string>
     <string name="pref_minimize_on_copy_summary">Aplikácia sa minimalizuje po skopírovaní kódu</string>
+    <string name="pref_copy_next_near_expiry_title">Preskakovať končiace kódy</string>
+    <string name="pref_copy_next_near_expiry_summary">Ak kód vyprší za menej ako 4 sekundy, skopíruje sa ďalší</string>
+    <string name="code_copied_next">Ďalší kód bol skopírovaný. Aktuálny vyprší za menej ako 4 sekundy.</string>
     <string name="pref_copy_behavior_title">Kopírovať tokeny do schránky</string>
     <string name="pref_search_behavior_title">Správanie vyhľadávania</string>
     <string name="pref_pause_entry_title">Zmraziť tokeny stlačením</string>

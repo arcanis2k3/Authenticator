@@ -394,6 +394,9 @@
     <string name="pref_groups_multiselect_summary">Ļaut vienlaicīgi atlasīt vairākas kopas</string>
     <string name="pref_minimize_on_copy_title">Samazināt pēc ievietošanas starpliktuvē</string>
     <string name="pref_minimize_on_copy_summary">Samazināt lietotni pēc koda ievietošanas starpliktuvē</string>
+    <string name="pref_copy_next_near_expiry_title">Izlaist drīz beidzamos kodus</string>
+    <string name="pref_copy_next_near_expiry_summary">Ja kods beidzas ātrāk nekā 4 sekundēs, tiek kopēts nākamais</string>
+    <string name="code_copied_next">Nākamais kods ir nokopēts. Pašreizējais beidzas ātrāk nekā 4 sekundēs.</string>
     <string name="pref_copy_behavior_title">Ievietot tekstvienības starpliktuvē</string>
     <string name="pref_search_behavior_title">Meklēšanas uzvedība</string>
     <string name="pref_pause_entry_title">Iesaldēt kodus pēc piesišanas tiem</string>

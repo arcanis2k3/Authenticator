@@ -385,6 +385,9 @@
     <string name="pref_groups_multiselect_summary">Дава възможност за избиране на няколко групи едновременно</string>
     <string name="pref_minimize_on_copy_title">Свиване при копиране</string>
     <string name="pref_minimize_on_copy_summary">Приложението се свива при копиране на код за достъп</string>
+    <string name="pref_copy_next_near_expiry_title">Пропускане на изтичащи кодове</string>
+    <string name="pref_copy_next_near_expiry_summary">Ако кодът изтича след по-малко от 4 секунди, се копира следващият</string>
+    <string name="code_copied_next">Следващият код е копиран. Текущият изтича след по-малко от 4 секунди.</string>
     <string name="pref_copy_behavior_title">Копиране на кодове за защита в междинната памет</string>
     <string name="pref_search_behavior_title">Начин на търсене</string>
     <string name="pref_pause_entry_title">Замразяване на запис при докосване</string>

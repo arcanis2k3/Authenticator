@@ -385,6 +385,9 @@
     <string name="pref_groups_multiselect_summary">Autoriser la sélection de plusieurs groupes en même temps</string>
     <string name="pref_minimize_on_copy_title">Minimiser lors de la copie</string>
     <string name="pref_minimize_on_copy_summary">Minimiser l\'application après avoir copié un jeton</string>
+    <string name="pref_copy_next_near_expiry_title">Ignorer les codes bientôt expirés</string>
+    <string name="pref_copy_next_near_expiry_summary">Si un code expire dans moins de 4 secondes, le suivant est copié</string>
+    <string name="code_copied_next">Code suivant copié. Le code actuel expire dans moins de 4 secondes.</string>
     <string name="pref_copy_behavior_title">Copier les jetons dans le presse-papier</string>
     <string name="pref_search_behavior_title">Comportement de recherche</string>
     <string name="pref_pause_entry_title">Geler les jetons lorsqu\'ils sont appuyés</string>

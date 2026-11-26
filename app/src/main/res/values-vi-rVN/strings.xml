@@ -376,6 +376,9 @@
     <string name="pref_groups_multiselect_summary">Cho phép chọn nhiều nhóm cùng lúc</string>
     <string name="pref_minimize_on_copy_title">Thu nhỏ ứng dụng</string>
     <string name="pref_minimize_on_copy_summary">Sau khi sao chép mã</string>
+    <string name="pref_copy_next_near_expiry_title">Bỏ qua mã sắp hết hạn</string>
+    <string name="pref_copy_next_near_expiry_summary">Nếu mã hết hạn trong dưới 4 giây, mã tiếp theo sẽ được sao chép</string>
+    <string name="code_copied_next">Đã sao chép mã tiếp theo. Mã hiện tại hết hạn trong dưới 4 giây.</string>
     <string name="pref_copy_behavior_title">Sao chép mã vào bộ nhớ tạm</string>
     <string name="pref_search_behavior_title">Tìm kiếm trong</string>
     <string name="pref_pause_entry_title">Đóng băng mã khi nhấn vào</string>

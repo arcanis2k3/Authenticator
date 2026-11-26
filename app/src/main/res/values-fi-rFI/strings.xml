@@ -376,6 +376,9 @@
     <string name="pref_groups_multiselect_summary">Salli useiden ryhmien valitseminen samanaikaisesti</string>
     <string name="pref_minimize_on_copy_title">Pienennä kopioidessa</string>
     <string name="pref_minimize_on_copy_summary">Pienennä sovellus todennuskoodin kopioinnin jälkeen</string>
+    <string name="pref_copy_next_near_expiry_title">Ohita vanhenevat koodit</string>
+    <string name="pref_copy_next_near_expiry_summary">Jos koodi vanhenee alle 4 sekunnissa, kopioidaan seuraava</string>
+    <string name="code_copied_next">Seuraava koodi kopioitu. Nykyinen vanhenee alle 4 sekunnissa.</string>
     <string name="pref_copy_behavior_title">Kopioi todennuskoodit leikepöydälle</string>
     <string name="pref_search_behavior_title">Hakukäyttäytyminen</string>
     <string name="pref_pause_entry_title">Jäädytä todennuskoodit napauttamalla</string>

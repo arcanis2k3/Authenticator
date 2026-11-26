@@ -384,6 +384,9 @@
     <string name="pref_groups_multiselect_summary">Permite ter seleccionados varios grupos ao mesmo tempo</string>
     <string name="pref_minimize_on_copy_title">Minimizar ao copiar</string>
     <string name="pref_minimize_on_copy_summary">Minimiza a aplicación despois de copiar un token</string>
+    <string name="pref_copy_next_near_expiry_title">Omitir códigos a piques de caducar</string>
+    <string name="pref_copy_next_near_expiry_summary">Se un código caduca en menos de 4 segundos, cópiase o seguinte</string>
+    <string name="code_copied_next">Copiouse o código seguinte. O actual caduca en menos de 4 segundos.</string>
     <string name="pref_copy_behavior_title">Copiar códigos no portapapeis</string>
     <string name="pref_search_behavior_title">Comportamento da busca</string>
     <string name="pref_pause_entry_title">Conxelar tokens ao premelos</string>
