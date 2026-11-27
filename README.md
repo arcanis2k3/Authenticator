@@ -67,7 +67,7 @@ src="metadata/en-US/images/phoneScreenshots/screenshot3.png?raw=true">](metadata
 
 ## Downloads
 
-The current signed build is [3.5.2-idroot](https://github.com/arcanis2k3/Authenticator/releases/tag/v3.5.2-idroot).
+The current signed build is [3.5.3-idroot](https://github.com/arcanis2k3/Authenticator/releases/tag/v3.5.3-idroot).
 Older builds are on the [Releases](https://github.com/arcanis2k3/Authenticator/releases) page.
 The app is not on the Play Store or F-Droid yet. [idroot.org](https://idroot.org) links here.
 

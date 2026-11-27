@@ -2,6 +2,10 @@
 
 What this fork adds on top of Aegis Authenticator 3.4.3. The Aegis vault format stays readable.
 
+## 3.5.3-idroot
+
+- Release builds no longer contain the git branch name, so a build from a tag matches a build from master.
+
 ## 3.5.2-idroot
 
 - Privacy policy and terms of use open inside the app. They do not need a network connection.

@@ -12,7 +12,7 @@ def getCmdOutput = { cmd ->
     return stdout.toString().trim()
 }
 
-def getGitHash = { -> return getCmdOutput(["git", "rev-parse", "--short", "HEAD"]) }
+def getGitHash = { -> return getCmdOutput(["git", "rev-parse", "--short=7", "HEAD"]) }
 def getGitBranch = { -> return getCmdOutput(["git", "rev-parse", "--abbrev-ref", "HEAD"]) }
 
 def namespaceName = "com.beemdevelopment.aegis"
@@ -35,11 +35,14 @@ android {
         applicationId "${applicationIdName}"
         minSdkVersion 23
         targetSdkVersion 36
-        versionCode 88
-        versionName "3.5.2-idroot"
+        versionCode 89
+        versionName "3.5.3-idroot"
         multiDexEnabled true
+        // The hash is fixed at 7 characters for one commit. The branch name is
+        // empty here: a release built on master and one built from a detached
+        // tag must match, or F-Droid cannot reproduce the APK.
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
-        buildConfigField "String", "GIT_BRANCH", "\"${getGitBranch()}\""
+        buildConfigField "String", "GIT_BRANCH", "\"\""
         buildConfigField "java.util.concurrent.atomic.AtomicBoolean", "TEST", "new java.util.concurrent.atomic.AtomicBoolean(false)"
 
         javaCompileOptions {
@@ -98,6 +101,7 @@ android {
             ]
             buildConfigField("String", "FILE_PROVIDER_AUTHORITY", "\"${fileProviderAuthorityDebug}\"")
             resValue "bool", "pref_secure_screen_default", "false"
+            buildConfigField "String", "GIT_BRANCH", "\"${getGitBranch()}\""
         }
         release {
             if (keystoreFile) {

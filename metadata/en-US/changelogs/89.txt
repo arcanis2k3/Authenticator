@@ -1,0 +1,1 @@
+Release builds no longer contain the git branch name, so the APK can be reproduced from a tag.
