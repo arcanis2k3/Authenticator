@@ -1,12 +1,12 @@
 # Terms of use — IDroot Authenticator
 
-Last updated: 24 November 2026 · Governing law: Federal Republic of Germany
+Last updated: 27 November 2026 · Governing law: Federal Republic of Germany
 
 The [German version](terms.de.md) of these terms is authoritative.
 
 ## Plain language
 
-IDroot Authenticator is a free app for one-time codes. It is not the handle service and it is not an account. You keep the vault. If you lose the password or the backup, you lose the codes. There is no promise that the app is error-free or will stay available.
+IDroot Authenticator is a free app for one-time codes and short notes. It is not the handle service and it is not an account. You keep the vault. If you lose the password or the backup, you lose the codes and the notes. There is no promise that the app is error-free or will stay available. These terms are stored in the app and do not need a network connection to read.
 
 ## 1. Operator
 
@@ -21,7 +21,7 @@ The app is offered by a private individual, not a company, voluntarily and witho
 
 IDroot Authenticator generates HOTP and TOTP codes on an Android device. It is a fork of Aegis Authenticator by Beem Development, signed separately, and not affiliated with Beem Development. The source code is under the GNU General Public License version 3. The [license](../../LICENSE) controls where it is mandatory.
 
-The app creates no account, asks for no identity check, and does not contact an IDroot server.
+The app creates no account, asks for no identity check, and does not contact an IDroot server. Short notes stay in the same vault. A notes export contains no codes, and a code export contains no notes.
 
 ## 3. Your responsibility
 

@@ -1,6 +1,6 @@
 # Privacy policy — IDroot Authenticator
 
-Last updated: 24 November 2026 · Governing law: Federal Republic of Germany
+Last updated: 27 November 2026 · Governing law: Federal Republic of Germany
 
 The [German version](privacy.de.md) of this policy is authoritative.
 
@@ -8,7 +8,7 @@ This policy covers only the Android app **IDroot Authenticator** (`org.idroot.au
 
 ## Plain language
 
-The app generates one-time codes on the device. It has no account, no advertising, and no analytics. The vault is not sent to IDroot. The app has no internet permission, so it cannot upload the vault by itself. Data leaves the device only if you export it, copy it, share it, or turn on an Android backup.
+The app generates one-time codes and can keep short notes on the device. It has no account, no advertising, and no analytics. The vault is not sent to IDroot. The app has no internet permission, so it cannot upload the vault by itself. Data leaves the device only if you export it, copy it, share it, or turn on an Android backup. This policy is stored in the app and does not need a network connection to read.
 
 ## 1. Controller
 
@@ -37,11 +37,11 @@ This data is created locally and stays there unless you send it somewhere yourse
 
 | Data | Purpose |
 |---|---|
-| Vault with account names, issuers, secrets, and settings | Generate one-time codes. Encrypted with a password (AES-256-GCM, scrypt). Without a password it is not encrypted, which the app advises against. |
+| Vault with account names, issuers, secrets, settings, and short notes | Generate one-time codes and keep notes such as Wi-Fi passwords. Encrypted with a password (AES-256-GCM, scrypt). Without a password it is not encrypted, which the app advises against. |
 | Biometric unlock | The system unlocks a key in the Android Keystore. The app does not store a fingerprint or face image. |
 | Camera or a picked image | Read a QR code once. No video stream is stored or sent. |
-| Clipboard | Only when you copy a code or start an import from the clipboard. |
-| Exports and automatic backups | Only to a location you choose through the system. |
+| Clipboard | Only when you copy a code or a note, or start an import from the clipboard. |
+| Exports and automatic backups | Only to a location you choose through the system. A notes export contains notes and no codes. A code export contains no notes. |
 | Local audit log | Record actions inside the app. It stays in the app database. |
 | Lock notice | A local notification, if you use one. It does not contact a server. |
 

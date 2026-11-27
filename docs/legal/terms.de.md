@@ -1,12 +1,12 @@
 # Nutzungsbedingungen — IDroot Authenticator
 
-Zuletzt aktualisiert: 24. November 2026 · Anwendbares Recht: Bundesrepublik Deutschland
+Zuletzt aktualisiert: 27. November 2026 · Anwendbares Recht: Bundesrepublik Deutschland
 
 Diese deutsche Fassung ist die maßgebliche Version. Bei Abweichungen gilt sie vor der [englischen Fassung](terms.en.md).
 
 ## Kurzfassung
 
-IDroot Authenticator ist eine kostenlose App für Einmalcodes. Sie ist kein Handle-Dienst und kein Konto. Du behältst den Tresor. Wer das Passwort oder die Sicherung verliert, verliert die Codes. Es gibt keine Zusage, dass die App fehlerfrei oder dauerhaft verfügbar ist.
+IDroot Authenticator ist eine kostenlose App für Einmalcodes und kurze Notizen. Sie ist kein Handle-Dienst und kein Konto. Du behältst den Tresor. Wer das Passwort oder die Sicherung verliert, verliert die Codes und die Notizen. Es gibt keine Zusage, dass die App fehlerfrei oder dauerhaft verfügbar ist. Diese Bedingungen liegen in der App und brauchen zum Lesen keine Netzwerkverbindung.
 
 ## 1. Anbieter
 
@@ -21,7 +21,7 @@ Die App wird von einer Privatperson angeboten, nicht von einem Unternehmen, frei
 
 IDroot Authenticator erzeugt HOTP- und TOTP-Codes auf dem Android-Gerät. Sie ist ein Fork von Aegis Authenticator von Beem Development, eigenständig signiert und nicht mit Beem Development verbunden. Der Quellcode steht unter der GNU General Public License Version 3. Die [Lizenz](../../LICENSE) geht diesen Bedingungen vor, soweit sie zwingend ist.
 
-Die App legt kein Konto an, verlangt keine Identitätsprüfung und spricht keinen Server von IDroot an.
+Die App legt kein Konto an, verlangt keine Identitätsprüfung und spricht keinen Server von IDroot an. Kurze Notizen bleiben im selben Tresor. Ein Notiz-Export enthält keine Codes, ein Code-Export keine Notizen.
 
 ## 3. Deine Verantwortung
 

@@ -57,9 +57,11 @@ jobs:
             exit 1
           fi
           cp "${apks[0]}" idroot-authenticator.apk
+          version="$(grep -m1 'versionName' app/build.gradle | sed 's/.*"\(.*\)".*/\1/')"
+          tag="v${version}"
           checksum="$(sha256sum idroot-authenticator.apk | awk '{print $1}')"
           notes=$(printf '%s\n' \
-            "Signed release of IDroot Authenticator 3.4.3-idroot.1." \
+            "Signed release of IDroot Authenticator ${version}." \
             "" \
             "Package: org.idroot.authenticator" \
             "SHA-256 of this APK: ${checksum}" \
@@ -67,13 +69,13 @@ jobs:
             "Certificate SHA-256:" \
             "5E:4A:D4:D4:84:AF:36:C8:66:B5:9C:FF:4A:54:09:8E:CC:7E:30:05:64:E4:E7:3F:B9:B8:14:9C:1A:20:63:2C" \
             "" \
-            "Codes stay on the device. https://idroot.org" \
+            "Codes and notes stay on the device. https://idroot.org" \
             "GPL-3 fork of Aegis. Not affiliated with Beem Development.")
-          if gh release view v3.4.3-idroot.1 >/dev/null 2>&1; then
-            gh release upload v3.4.3-idroot.1 idroot-authenticator.apk --clobber
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" idroot-authenticator.apk --clobber
           else
-            gh release create v3.4.3-idroot.1 idroot-authenticator.apk \
-              --title "IDroot Authenticator 3.4.3-idroot.1" \
+            gh release create "$tag" idroot-authenticator.apk \
+              --title "IDroot Authenticator ${version}" \
               --notes "$notes"
           fi
   test:

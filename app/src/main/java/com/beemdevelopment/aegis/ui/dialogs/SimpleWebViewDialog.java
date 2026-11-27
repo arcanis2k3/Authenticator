@@ -60,7 +60,7 @@ public abstract class SimpleWebViewDialog extends DialogFragment {
 
         String content = getContent(requireContext());
         final WebView webView = view.findViewById(R.id.web_view);
-        webView.loadData(content, "text/html", "UTF-8");
+        webView.loadDataWithBaseURL(null, content, "text/html", "UTF-8", null);
         return dialog;
     }
 

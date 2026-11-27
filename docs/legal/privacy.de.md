@@ -1,6 +1,6 @@
 # Datenschutzerklärung — IDroot Authenticator
 
-Zuletzt aktualisiert: 24. November 2026 · Anwendbares Recht: Bundesrepublik Deutschland
+Zuletzt aktualisiert: 27. November 2026 · Anwendbares Recht: Bundesrepublik Deutschland
 
 Diese deutsche Fassung ist die maßgebliche Version. Bei Abweichungen gilt sie vor der [englischen Fassung](privacy.en.md).
 
@@ -8,7 +8,7 @@ Diese Erklärung gilt nur für die Android-App **IDroot Authenticator** (`org.id
 
 ## Kurzfassung
 
-Die App erzeugt Einmalcodes auf dem Gerät. Sie hat kein Konto, keine Werbung und keine Analyse. Der Tresor wird nicht an IDroot geschickt. Die App hat keine Internet-Berechtigung und kann ihn deshalb selbst nicht hochladen. Daten verlassen das Gerät nur, wenn du sie exportierst, kopierst, weitergibst oder eine Android-Sicherung einschaltest.
+Die App erzeugt Einmalcodes und kann kurze Notizen auf dem Gerät behalten. Sie hat kein Konto, keine Werbung und keine Analyse. Der Tresor wird nicht an IDroot geschickt. Die App hat keine Internet-Berechtigung und kann ihn deshalb selbst nicht hochladen. Daten verlassen das Gerät nur, wenn du sie exportierst, kopierst, weitergibst oder eine Android-Sicherung einschaltest. Diese Erklärung liegt in der App und braucht zum Lesen keine Netzwerkverbindung.
 
 ## 1. Verantwortlicher
 
@@ -37,11 +37,11 @@ Die folgenden Daten entstehen nur lokal und bleiben dort, solange du sie nicht s
 
 | Daten | Zweck |
 |---|---|
-| Tresor mit Kontonamen, Ausstellern, Geheimnissen und Einstellungen | Einmalcodes erzeugen. Mit Passwort verschlüsselt (AES-256-GCM, scrypt). Ohne Passwort unverschlüsselt, was die App abrät. |
+| Tresor mit Kontonamen, Ausstellern, Geheimnissen, Einstellungen und kurzen Notizen | Einmalcodes erzeugen und Notizen wie WLAN-Passwörter behalten. Mit Passwort verschlüsselt (AES-256-GCM, scrypt). Ohne Passwort unverschlüsselt, was die App abrät. |
 | Biometrisches Entsperren | Das System entsperrt einen Schlüssel im Android-Keystore. Die App speichert kein Fingerabdruck- oder Gesichtsbild. |
 | Kamera oder ausgewähltes Bild | QR-Code einmalig lesen. Es wird kein Videostream gespeichert oder gesendet. |
-| Zwischenablage | Nur wenn du einen Code kopierst oder einen Import aus der Zwischenablage startest. |
-| Exporte und automatische Sicherungen | Nur an den Speicherort, den du über das System auswählst. |
+| Zwischenablage | Nur wenn du einen Code oder eine Notiz kopierst oder einen Import aus der Zwischenablage startest. |
+| Exporte und automatische Sicherungen | Nur an den Speicherort, den du über das System auswählst. Ein Notiz-Export enthält Notizen und keine Codes. Ein Code-Export enthält keine Notizen. |
 | Lokales Prüfprotokoll | Aktionen in der App nachvollziehen. Es bleibt in der App-Datenbank. |
 | Sperrhinweis | Eine lokale Benachrichtigung, falls du sie nutzt. Sie kontaktiert keinen Server. |
 

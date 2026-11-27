@@ -1,47 +1,33 @@
 # Contributing
 
-Looking to contribute to Aegis? That's great! There are a couple of ways to help
-out. This document contains some general guidelines for each type of
-contribution.
+This repository is IDroot Authenticator, maintained by Sebastian Fleckenstein.
+It is a fork of Aegis with its own functions. Issues and pull requests belong here:
+[arcanis2k3/Authenticator](https://github.com/arcanis2k3/Authenticator/issues).
 
-Please review [the FAQ](FAQ.md) before reporting a bug, asking a question or
-requesting a feature.
+Please read [the FAQ](FAQ.md) before reporting a bug or requesting a feature.
+Security reports go through [private vulnerability reporting](SECURITY.md), not a public issue.
 
 ## Translations
 
-We use [Crowdin](https://crowdin.com/project/aegis-authenticator) to crowdsource
-translations of Aegis for lots of different languages. __Pull requests that
-add/update a translation are no longer accepted.__ Crowdin is our single source
-of truth for translations, to keep things easy to maintain.
-
-The top 30 languages are available for translation. It's possible that yours is
-not in that list. If that's the case, feel free to send us an email and we'll
-add it.
+Pull requests that update the strings in this repository are welcome. The
+Crowdin project of upstream Aegis is not the source for this fork.
 
 ## Pull requests
 
-If you're planning on adding a new feature or making other large changes, please
-discuss it with us first through [a
-proposal](https://github.com/beemdevelopment/Aegis/issues/new?labels=proposal&template=feature.md)
-on GitHub. Discussing your idea with us first ensures that everyone is on the
-same page before you start working on your change. We don't like rejecting pull
-requests.
+For a large change, open a feature request in this repository first.
 
 ## Bug reports
 
-We use GitHub's issue tracker to track bugs. To make bug reports easier to
-follow up on for us, please fill out the form as accurately as possible. If a
-bug report does not contain enough information, it will be closed. Duplicate bug
-reports receive the same treatment.
+Use the bug form and include the app version from the About screen. Reports
+without enough detail will be closed.
 
-Please consider trying to find the root cause yourself first and include your
-analysis of the issue in your report. Perhaps even send us a patch that fixes
-it! We're happy to help you if you get stuck along the way.
+The package id of a release build is `org.idroot.authenticator`. A debug build
+uses `org.idroot.authenticator.debug`.
 
 ### Capturing a log with ADB
 
 In some cases, we ask our users to obtain a debug log from their device. This is
-typically only necessary if Aegis:
+typically only necessary if IDroot Authenticator:
 - Is unable to recover from an error and crashes.
 - Only shows a generic error to the user, but writes a more detailed one to the
   log.
@@ -88,7 +74,7 @@ __On your Android device__:
 
 __On your Android device__:
 
-1. Start Aegis.
+1. Start IDroot Authenticator.
 
 __On your PC__:
 
@@ -104,15 +90,15 @@ __On your PC__:
     The logcat command captures the full system log by default, which may expose
     some sensitive information. While this information can sometimes help with
     finding the root cause of the issue, it is not always necessary. To only
-    capture the log output of Aegis, replace the last logcat command with the
+    capture the log output of IDroot Authenticator, replace the last logcat command with the
     one below:
 
     ```sh
-    adb logcat --pid=$(adb shell pidof -s com.beemdevelopment.aegis) > debug.log
+    adb logcat --pid=$(adb shell pidof -s org.idroot.authenticator) > debug.log
     ```
 
-    _If you are using a debug APK, replace ``com.beemdevelopment.aegis`` with
-   ``com.beemdevelopment.aegis.debug``._
+    _If you are using a debug APK, replace ``org.idroot.authenticator`` with
+   ``org.idroot.authenticator.debug``._
 
 __On your Android device__:
 

@@ -3,6 +3,8 @@ alt="IDroot Authenticator icon">
 
 # IDroot Authenticator
 
+Maintained by Sebastian Fleckenstein.
+
 <br>
 
 **IDroot Authenticator** is a free, open source 2FA app for Android.
@@ -65,9 +67,9 @@ src="metadata/en-US/images/phoneScreenshots/screenshot3.png?raw=true">](metadata
 
 ## Downloads
 
-Not published on the Play Store or F-Droid yet. When a signed build exists it
-will be attached to a GitHub Release of this repository and linked from
-[idroot.org](https://idroot.org).
+The current signed build is [3.5.2-idroot](https://github.com/arcanis2k3/Authenticator/releases/tag/v3.5.2-idroot).
+Older builds are on the [Releases](https://github.com/arcanis2k3/Authenticator/releases) page.
+The app is not on the Play Store or F-Droid yet. [idroot.org](https://idroot.org) links here.
 
 Do not install the official Aegis APK expecting this branding. IDroot
 Authenticator uses its own application id (`org.idroot.authenticator`) and its
@@ -90,7 +92,7 @@ SHA256: 5E:4A:D4:D4:84:AF:36:C8:66:B5:9C:FF:4A:54:09:8E:CC:7E:30:05:64:E4:E7:3F:
 
 ## Legal
 
-The app is separate from the idroot.org handle service. Its own texts, with the German version authoritative:
+The app is separate from the idroot.org handle service. The same texts are stored in the app, so reading them needs no network connection. The German version is authoritative:
 
 - [Privacy policy](docs/legal/privacy.en.md) · [Datenschutzerklärung](docs/legal/privacy.de.md)
 - [Terms of use](docs/legal/terms.en.md) · [Nutzungsbedingungen](docs/legal/terms.de.md)

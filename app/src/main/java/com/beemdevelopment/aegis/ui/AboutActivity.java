@@ -21,18 +21,14 @@ import com.beemdevelopment.aegis.BuildConfig;
 import com.beemdevelopment.aegis.R;
 import com.beemdevelopment.aegis.ui.dialogs.ChangelogDialog;
 import com.beemdevelopment.aegis.ui.dialogs.LicenseDialog;
+import com.beemdevelopment.aegis.ui.dialogs.PrivacyDialog;
+import com.beemdevelopment.aegis.ui.dialogs.TermsDialog;
 import com.beemdevelopment.aegis.helpers.ViewHelper;
 import com.google.android.material.color.MaterialColors;
-
-import java.util.Locale;
 
 public class AboutActivity extends AegisActivity {
 
     private static String GITHUB = "https://github.com/arcanis2k3/Authenticator";
-    private static String PRIVACY_DE = "https://github.com/arcanis2k3/Authenticator/blob/master/docs/legal/privacy.de.md";
-    private static String PRIVACY_EN = "https://github.com/arcanis2k3/Authenticator/blob/master/docs/legal/privacy.en.md";
-    private static String TERMS_DE = "https://github.com/arcanis2k3/Authenticator/blob/master/docs/legal/terms.de.md";
-    private static String TERMS_EN = "https://github.com/arcanis2k3/Authenticator/blob/master/docs/legal/terms.en.md";
     private static String WEBSITE_ALEXANDER = "https://alexbakker.me";
     private static String GITHUB_MICHAEL = "https://github.com/michaelschattgen";
 
@@ -95,12 +91,15 @@ public class AboutActivity extends AegisActivity {
         View btnWebsite = findViewById(R.id.btn_website);
         btnWebsite.setOnClickListener(v -> openUrl(WEBSITE_BEEMDEVELOPMENT));
 
-        boolean german = "de".equals(Locale.getDefault().getLanguage());
         View btnPrivacy = findViewById(R.id.btn_privacy);
-        btnPrivacy.setOnClickListener(v -> openUrl(german ? PRIVACY_DE : PRIVACY_EN));
+        btnPrivacy.setOnClickListener(v -> PrivacyDialog.create()
+                .setTheme(_themeHelper.getConfiguredTheme())
+                .show(getSupportFragmentManager(), "privacy"));
 
         View btnTerms = findViewById(R.id.btn_terms);
-        btnTerms.setOnClickListener(v -> openUrl(german ? TERMS_DE : TERMS_EN));
+        btnTerms.setOnClickListener(v -> TermsDialog.create()
+                .setTheme(_themeHelper.getConfiguredTheme())
+                .show(getSupportFragmentManager(), "terms"));
 
         View btnRate = findViewById(R.id.btn_rate);
         btnRate.setOnClickListener(v -> openUrl(PLAYSTORE_BEEMDEVELOPMENT ));

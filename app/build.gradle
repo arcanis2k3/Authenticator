@@ -25,12 +25,18 @@ android {
 
     namespace namespaceName
 
+    sourceSets {
+        main {
+            assets.srcDir "${rootDir}/docs/legal"
+        }
+    }
+
     defaultConfig {
         applicationId "${applicationIdName}"
         minSdkVersion 23
         targetSdkVersion 36
-        versionCode 87
-        versionName "3.5.1-idroot"
+        versionCode 88
+        versionName "3.5.2-idroot"
         multiDexEnabled true
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
         buildConfigField "String", "GIT_BRANCH", "\"${getGitBranch()}\""
