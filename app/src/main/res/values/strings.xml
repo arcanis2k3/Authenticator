@@ -453,6 +453,8 @@
     <string name="author_alex" translatable="false">Alexander Bakker</string>
     <string name="country_netherlands">Netherlands</string>
     <string name="author_michael" translatable="false">Michael Schättgen</string>
+    <string name="author_sebastian" translatable="false">Sebastian Fleckenstein</string>
+    <string name="author_sebastian_role" translatable="false">IDroot</string>
     <string name="email_us">Write an email</string>
     <string name="visit_website">idroot.org</string>
     <string name="privacy_policy">Privacy policy</string>

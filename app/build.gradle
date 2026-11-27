@@ -29,8 +29,8 @@ android {
         applicationId "${applicationIdName}"
         minSdkVersion 23
         targetSdkVersion 36
-        versionCode 86
-        versionName "3.5.0-idroot"
+        versionCode 87
+        versionName "3.5.1-idroot"
         multiDexEnabled true
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
         buildConfigField "String", "GIT_BRANCH", "\"${getGitBranch()}\""

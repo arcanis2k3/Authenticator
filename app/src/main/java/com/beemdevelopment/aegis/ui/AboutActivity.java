@@ -80,6 +80,9 @@ public class AboutActivity extends AegisActivity {
         View btnGithub = findViewById(R.id.btn_github);
         btnGithub.setOnClickListener(v -> openUrl(GITHUB));
 
+        View btnSebastian = findViewById(R.id.btn_sebastian);
+        btnSebastian.setOnClickListener(v -> openUrl(WEBSITE_BEEMDEVELOPMENT));
+
         View btnAlexander = findViewById(R.id.btn_alexander);
         btnAlexander.setOnClickListener(v -> openUrl(WEBSITE_ALEXANDER));
 
