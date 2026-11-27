@@ -6,9 +6,10 @@ alt="IDroot Authenticator icon">
 <br>
 
 **IDroot Authenticator** is a free, open source 2FA app for Android.
-Your one-time codes stay on the device, in an encrypted vault.
-It is a surface rebrand of [Aegis Authenticator](https://github.com/beemdevelopment/Aegis)
-and keeps that vault format, so Aegis backups still import.
+One-time codes and short notes stay on the device, in an encrypted vault.
+It is a fork of [Aegis Authenticator](https://github.com/beemdevelopment/Aegis)
+with added functions, and it keeps that vault format, so Aegis backups still import.
+Code exports stay compatible: notes are not included in them.
 
 Website: [idroot.org](https://idroot.org)
 
@@ -29,6 +30,9 @@ The security design of the app and the vault format is described in detail in
     - Biometrics (Android Keystore)
   - Screen capture prevention
   - Tap to reveal
+- Secure notes
+  - Short notes, such as Wi-Fi passwords, in the same vault
+  - Export and import notes separately from the codes
 - Compatible with Google Authenticator
 - Supports industry standard algorithms:
   [HOTP](https://tools.ietf.org/html/rfc4226) and
